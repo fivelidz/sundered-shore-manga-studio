@@ -1,0 +1,1384 @@
+{
+  "schema": "manga_studio/episode@1",
+  "episode_id": "a1e01_ch01",
+  "title": "ARC I — THE CROSSING · Episode 1: The Crossing (Ch1)",
+  "source_storyboard": "../projects/the-sundered-shore/06_image_prompts/webcomic_v4b_a1e01_ch01_prompts.json",
+  "style_lock": {
+    "style_token": "STYLE_SUNDERED_WEBTOON",
+    "palette": "bronze-age living world: sky #C8A96E, earth #8B6E45, shadow #3D2810, sea #2D6A8A, regnant skin #F4F1EC",
+    "cast_visual_id": "CAST DIFFERENTIATION (each face/silhouette clearly distinct): Signe = tight pale braid, angular precise bearing, geometric-border garment wrap; Aldric = the tallest figure, short ash-blonde hair, rigid stillness, blade at hip; Cael = loose tousled ash-fair hair, relaxed slouch, freckles, small satchel case; Marit = warm honey-toned hair in a low tie with local cloth, soft open posture, worn notebook; Oswin = compact build, cropped dark hair, unreadable neutral face, plain dress; Dimmed workers (Brenn/Ysel/Toran) = warm amber-olive skin, practical work clothes, Brenn broad and weathered, Ysel braided and bright-eyed, Toran lean and quiet.",
+    "inspiration": "isekai + survival manga pacing (Dr. Stone, Vinland Saga, Sousei no Taiga): competence beats, nature as antagonist, knowledge inserts",
+    "lettering": "ALL text boxes / speech bubbles / thought bubbles rendered BLANK in-image; dialogue lives in panel.dialogue[] and is lettered in a second pass"
+  },
+  "render_defaults": {
+    "model": "black-forest-labs/flux-schnell",
+    "variants_per_panel": 3
+  },
+  "panels": [
+    {
+      "panel": 1,
+      "scroll_beat": "cover_splash",
+      "shot": "title_splash",
+      "aspect": "9:16",
+      "prompt": "STYLE_SUNDERED_WEBTOON: gritty literary sci-fi manhwa, vertical webtoon panel, dense ink linework and layered screentone, muted cool desaturated palette with selective warm accent, cinematic panel composition, ligne-claire faces with expressive ink shadow, cold diffuse institutional lighting, thin clean panel borders, no halftone dots visible at zoom, no speech bubble artifacts, no watermarks, high detail in architectural background, soft focus on secondary figures. BRONZE-AGE LIVING-WORLD PALETTE: Levantine bronze-gold sky #C8A96E, sun-bleached sandstone #8B6E45, warm mahogany shadow #3D2810, deep Aegean blue-green sea #2D6A8A far below, Regnant cool-pale skin #F4F1EC. Episode cover splash, text-free composition: a vast four-and-a-half-hectare terrace of bleached white karst limestone seen from a high three-quarter angle in full Mediterranean midday sun, thyme scrub and low carob at the edges, the sea a thin blue-green line far below the south cliff, heat shimmer rising off the southern rock face, a single corvid wheeling in the bronze-gold sky. Five tiny cool-pale figures stand and crouch on the immense bare stone, dwarfed, just-arrived, the only intrusion on an empty unwritten world. Epic scale, cinematic emptiness, brutal clean light. No text in image. 9:16 vertical splash, no portal imagery, no glowing effects.",
+      "negative_prompt": "NEGATIVE_SUNDERED_DEFAULT: photorealistic, 3D render, CGI, western superhero comic, bright saturated anime colours, chibi, super-deformation, visible halftone dots, speech bubble overflow, watermark, signature, blurry low-detail background, multiverse portal imagery, glowing vortex, sci-fi laser, holographic AI face, alien features on the pale figures, modern clothing, anachronistic objects, overexposed blown highlights, flat shading, text artifacts, NSFW",
+      "caption": "ARC I — THE CROSSING · Episode 1",
+      "caption_pov": "marit",
+      "dialogue": [],
+      "bubbles": [],
+      "variants": [
+        {
+          "file": "renders/panel_01_v1.webp",
+          "model": "black-forest-labs/flux-schnell",
+          "created_at": "2026-06-12T11:29:35.702716+00:00"
+        },
+        {
+          "file": "renders/panel_01_v2.webp",
+          "model": "black-forest-labs/flux-schnell",
+          "created_at": "2026-06-12T11:38:38.611381+00:00"
+        },
+        {
+          "file": "renders/panel_01_v3.webp",
+          "model": "black-forest-labs/flux-schnell",
+          "created_at": "2026-06-12T11:46:31.459393+00:00"
+        }
+      ],
+      "selected_variant": 0,
+      "approved": false,
+      "flagged": false,
+      "note": "",
+      "animation": {
+        "camera": "slow_zoom_in",
+        "motion_hint": "dust drift, heat shimmer",
+        "duration_s": 3.5,
+        "transition": "fade"
+      }
+    },
+    {
+      "panel": 2,
+      "scroll_beat": "arrival_on_the_plateau",
+      "shot": "establishing_wide",
+      "aspect": "9:16",
+      "prompt": "STYLE_SUNDERED_WEBTOON: gritty literary sci-fi manhwa, vertical webtoon panel, dense ink linework and layered screentone, muted cool desaturated palette with selective warm accent, cinematic panel composition, ligne-claire faces with expressive ink shadow, cold diffuse institutional lighting, thin clean panel borders, no halftone dots visible at zoom, no speech bubble artifacts, no watermarks, high detail in architectural background, soft focus on secondary figures. BRONZE-AGE LIVING-WORLD PALETTE: Levantine bronze-gold sky #C8A96E, sun-bleached sandstone #8B6E45, warm mahogany shadow #3D2810, deep Aegean blue-green sea #2D6A8A far below, Regnant cool-pale skin #F4F1EC. Wide establishing splash from ground level: bleached white karst limestone in full overhead sun, thyme and wild scrub at the margins, the sea far below the cliff edge. A cluster of tall pale-skinned figures has just appeared on the bare stone, mid-disorientation, hands rising to faces against blinding light, the light a physical presence. The whole image overexposed-bright at the centre as if the sun is an assault, deep warm shadow only in the rock cracks. They are cool pale objects in a warm vast living world. No technology visible. Heat haze, a corvid high in the sky. 9:16 vertical splash, no portal imagery, no glowing effects.",
+      "negative_prompt": "NEGATIVE_SUNDERED_DEFAULT: photorealistic, 3D render, CGI, western superhero comic, bright saturated anime colours, chibi, super-deformation, visible halftone dots, speech bubble overflow, watermark, signature, blurry low-detail background, multiverse portal imagery, glowing vortex, sci-fi laser, holographic AI face, alien features on the pale figures, modern clothing, anachronistic objects, overexposed blown highlights, flat shading, text artifacts, NSFW",
+      "caption": "The pressure change precedes the light by half a second. Then the plateau arrives all at once.",
+      "caption_pov": "signe",
+      "dialogue": [],
+      "bubbles": [],
+      "variants": [
+        {
+          "file": "renders/panel_02_v1.webp",
+          "model": "black-forest-labs/flux-schnell",
+          "created_at": "2026-06-12T11:29:49.487287+00:00"
+        },
+        {
+          "file": "renders/panel_02_v2.webp",
+          "model": "black-forest-labs/flux-schnell",
+          "created_at": "2026-06-12T11:38:51.695167+00:00"
+        },
+        {
+          "file": "renders/panel_02_v3.webp",
+          "model": "black-forest-labs/flux-schnell",
+          "created_at": "2026-06-12T11:46:45.014612+00:00"
+        }
+      ],
+      "selected_variant": 0,
+      "approved": false,
+      "flagged": false,
+      "note": "",
+      "animation": {
+        "camera": "slow_pan_right",
+        "motion_hint": "wind in scrub, distant sea glitter",
+        "duration_s": 3.0,
+        "transition": "cut"
+      }
+    },
+    {
+      "panel": 3,
+      "scroll_beat": "arrival_on_the_plateau",
+      "shot": "insert_detail",
+      "aspect": "1:1",
+      "prompt": "STYLE_SUNDERED_WEBTOON: gritty literary sci-fi manhwa, vertical webtoon panel, dense ink linework and layered screentone, muted cool desaturated palette with selective warm accent, cinematic panel composition, expressive ink shadow, thin clean panel borders, no halftone dots visible at zoom, no speech bubble artifacts, no watermarks, high macro detail. BRONZE-AGE LIVING-WORLD PALETTE: bronze-gold ambient #C8A96E, sun-bleached limestone near-white, warm mahogany shadow #3D2810 (full palette reference: sandstone #8B6E45, deep Aegean sea #2D6A8A, Regnant cool-pale skin #F4F1EC). Extreme macro insert: a sprig of wild thyme and a tuft of pale dry grass growing from a crack in white limestone, a few grains of goat dung nearby, baked stone texture, heat shimmer at the edge of frame. The smell of an unmanaged living world rendered as texture and detail. No people. No technology. 1:1 square insert, no glowing effects.",
+      "negative_prompt": "NEGATIVE_SUNDERED_DEFAULT: photorealistic, 3D render, CGI, western superhero comic, bright saturated anime colours, chibi, super-deformation, visible halftone dots, speech bubble overflow, watermark, signature, blurry low-detail background, multiverse portal imagery, glowing vortex, sci-fi laser, holographic AI face, modern clothing, anachronistic objects, overexposed blown highlights, flat shading, text artifacts, NSFW",
+      "caption": "Bleached limestone, full sun, the smell of thyme and goat dung and something underneath both that I have no category for. Wilderness. The real thing, unmanaged and unarchived.",
+      "caption_pov": "signe",
+      "dialogue": [],
+      "bubbles": [],
+      "variants": [
+        {
+          "file": "renders/panel_03_v1.webp",
+          "model": "black-forest-labs/flux-schnell",
+          "created_at": "2026-06-12T11:30:03.186156+00:00"
+        },
+        {
+          "file": "renders/panel_03_v2.webp",
+          "model": "black-forest-labs/flux-schnell",
+          "created_at": "2026-06-12T11:39:04.718469+00:00"
+        },
+        {
+          "file": "renders/panel_03_v3.webp",
+          "model": "black-forest-labs/flux-schnell",
+          "created_at": "2026-06-12T11:46:57.968899+00:00"
+        }
+      ],
+      "selected_variant": 0,
+      "approved": false,
+      "flagged": false,
+      "note": "",
+      "animation": {
+        "camera": "hold",
+        "motion_hint": "subtle focus pull",
+        "duration_s": 1.5,
+        "transition": "cut"
+      }
+    },
+    {
+      "panel": 4,
+      "scroll_beat": "the_toll_hits_the_body",
+      "shot": "close",
+      "aspect": "2:3",
+      "prompt": "STYLE_SUNDERED_WEBTOON: gritty literary sci-fi manhwa, vertical webtoon panel, dense ink linework and layered screentone, muted cool desaturated palette with selective warm accent, cinematic panel composition, ligne-claire faces with expressive ink shadow, thin clean panel borders, no halftone dots visible at zoom, no speech bubble artifacts, no watermarks, high detail. BRONZE-AGE LIVING-WORLD PALETTE: bronze-gold light #C8A96E, sandstone #8B6E45, warm mahogany shadow #3D2810, Regnant cool-pale skin #F4F1EC (full palette reference: deep Aegean sea #2D6A8A). Close shot, harsh sun: Signe: 176cm lean young woman, full Regnant near-luminous pale skin, fair hair in tight functional braid, pale measuring grey eyes that track differently from the others, precise dry bearing, the engram garment a heavy fine-woven wrap with a geometric interlace border folded over her arm. She stands rigidly still, eyes narrowed against the light, a thin nosebleed beginning, two fingers pinched to the bridge of her nose, breathing through her mouth, running an internal body inventory. Composed, clinical, in pain and cataloguing the pain. Bleached limestone behind her, heat haze. 2:3 portrait, no glowing effects.",
+      "negative_prompt": "NEGATIVE_SUNDERED_DEFAULT: photorealistic, 3D render, CGI, western superhero comic, bright saturated anime colours, chibi, super-deformation, visible halftone dots, speech bubble overflow, watermark, signature, blurry low-detail background, multiverse portal imagery, glowing vortex, sci-fi laser, holographic AI face, alien features on the pale figures, modern clothing, anachronistic objects, overexposed blown highlights, flat shading, text artifacts, NSFW",
+      "caption": "My ears are ringing. That is the toll making itself known. I stand still for thirty seconds and run a body inventory.",
+      "caption_pov": "signe",
+      "dialogue": [],
+      "bubbles": [],
+      "variants": [
+        {
+          "file": "renders/panel_04_v1.webp",
+          "model": "black-forest-labs/flux-schnell",
+          "created_at": "2026-06-12T11:30:16.252128+00:00"
+        },
+        {
+          "file": "renders/panel_04_v2.webp",
+          "model": "black-forest-labs/flux-schnell",
+          "created_at": "2026-06-12T11:39:18.028673+00:00"
+        },
+        {
+          "file": "renders/panel_04_v3.webp",
+          "model": "black-forest-labs/flux-schnell",
+          "created_at": "2026-06-12T11:47:11.353605+00:00"
+        }
+      ],
+      "selected_variant": 0,
+      "approved": false,
+      "flagged": false,
+      "note": "",
+      "animation": {
+        "camera": "slow_zoom_in",
+        "motion_hint": "breathing, eye micro-movement",
+        "duration_s": 2.0,
+        "transition": "cut"
+      }
+    },
+    {
+      "panel": 5,
+      "scroll_beat": "the_toll_hits_the_body",
+      "shot": "extreme_close_insert",
+      "aspect": "1:1",
+      "prompt": "STYLE_SUNDERED_WEBTOON: gritty literary sci-fi manhwa, vertical webtoon panel, dense ink linework and layered screentone, muted cool desaturated palette with selective warm accent, cinematic panel composition, expressive ink shadow, thin clean panel borders, no halftone dots visible at zoom, no speech bubble artifacts, no watermarks, high macro detail. BRONZE-AGE LIVING-WORLD PALETTE: bronze-gold ambient #C8A96E, sun-bleached white limestone, warm mahogany shadow #3D2810, a single dark-red blood note (full palette reference: sandstone #8B6E45, deep Aegean sea #2D6A8A, Regnant cool-pale skin #F4F1EC). Extreme macro insert: a single drop of thin bright-dark blood from a nosebleed falling and striking pale bleached limestone, spreading in the porous white stone, dust grains around it, the only saturated colour in a bleached frame. Visceral, clinical, the body's first toll made physical. No portal, no glow. 1:1 square insert.",
+      "negative_prompt": "NEGATIVE_SUNDERED_DEFAULT: photorealistic, 3D render, CGI, western superhero comic, bright saturated anime colours, chibi, super-deformation, visible halftone dots, speech bubble overflow, watermark, signature, blurry low-detail background, multiverse portal imagery, glowing vortex, sci-fi laser, holographic AI face, modern clothing, anachronistic objects, overexposed blown highlights, flat shading, text artifacts, NSFW",
+      "caption": "The blood is a specific thin texture that tells me my capillaries are under pressure.",
+      "caption_pov": "signe",
+      "dialogue": [],
+      "bubbles": [],
+      "variants": [
+        {
+          "file": "renders/panel_05_v1.webp",
+          "model": "black-forest-labs/flux-schnell",
+          "created_at": "2026-06-12T11:30:30.581217+00:00"
+        },
+        {
+          "file": "renders/panel_05_v2.webp",
+          "model": "black-forest-labs/flux-schnell",
+          "created_at": "2026-06-12T11:39:31.175294+00:00"
+        },
+        {
+          "file": "renders/panel_05_v3.webp",
+          "model": "black-forest-labs/flux-schnell",
+          "created_at": "2026-06-12T11:47:24.455743+00:00"
+        }
+      ],
+      "selected_variant": 0,
+      "approved": false,
+      "flagged": false,
+      "note": "",
+      "animation": {
+        "camera": "hold",
+        "motion_hint": "subtle focus pull",
+        "duration_s": 1.5,
+        "transition": "cut"
+      }
+    },
+    {
+      "panel": 6,
+      "scroll_beat": "the_toll_hits_the_body",
+      "shot": "medium",
+      "aspect": "2:3",
+      "prompt": "STYLE_SUNDERED_WEBTOON: gritty literary sci-fi manhwa, vertical webtoon panel, dense ink linework and layered screentone, muted cool desaturated palette with selective warm accent, cinematic panel composition, ligne-claire faces with expressive ink shadow, thin clean panel borders, no halftone dots visible at zoom, no speech bubble artifacts, no watermarks, high detail. BRONZE-AGE LIVING-WORLD PALETTE: bronze-gold light #C8A96E, sandstone #8B6E45, warm mahogany shadow #3D2810, Regnant cool-pale skin #F4F1EC (full palette reference: deep Aegean sea #2D6A8A). Medium shot in full sun: Oswin: 183cm lean young man slightly hunched from years of instrument work, pale Regnant coloring, pale blue eyes that catalogue and track, posture of someone routing around inconvenient environments, secondary AI device older and clunkier than the Oracle attached to his belt, precision instrument kit visible. He has folded himself down to sit on the bleached limestone first of all the group, knees pulled up, the particular stillness he performs when thinking and not wanting to be approached, no nosebleed on him. Sealed interiority. Other pale figures stand disoriented behind him. 2:3 portrait, no glowing effects.",
+      "negative_prompt": "NEGATIVE_SUNDERED_DEFAULT: photorealistic, 3D render, CGI, western superhero comic, bright saturated anime colours, chibi, super-deformation, visible halftone dots, speech bubble overflow, watermark, signature, blurry low-detail background, multiverse portal imagery, glowing vortex, sci-fi laser, holographic AI face, alien features on the pale figures, modern clothing, anachronistic objects, overexposed blown highlights, flat shading, text artifacts, NSFW",
+      "caption": "Oswin is the first one to sit down. He folds himself onto the limestone without ceremony.",
+      "caption_pov": "signe",
+      "dialogue": [],
+      "bubbles": [],
+      "variants": [
+        {
+          "file": "renders/panel_06_v1.webp",
+          "model": "black-forest-labs/flux-schnell",
+          "created_at": "2026-06-12T11:30:44.433648+00:00"
+        },
+        {
+          "file": "renders/panel_06_v2.webp",
+          "model": "black-forest-labs/flux-schnell",
+          "created_at": "2026-06-12T11:39:44.769171+00:00"
+        },
+        {
+          "file": "renders/panel_06_v3.webp",
+          "model": "black-forest-labs/flux-schnell",
+          "created_at": "2026-06-12T11:47:37.975064+00:00"
+        }
+      ],
+      "selected_variant": 0,
+      "approved": false,
+      "flagged": false,
+      "note": "",
+      "animation": {
+        "camera": "slow_zoom_in",
+        "motion_hint": "ambient drift",
+        "duration_s": 2.5,
+        "transition": "cut"
+      }
+    },
+    {
+      "panel": 7,
+      "scroll_beat": "the_toll_hits_the_body",
+      "shot": "close",
+      "aspect": "2:3",
+      "prompt": "STYLE_SUNDERED_WEBTOON: gritty literary sci-fi manhwa, vertical webtoon panel, dense ink linework and layered screentone, muted cool desaturated palette with selective warm accent, cinematic panel composition, ligne-claire faces with expressive ink shadow, thin clean panel borders, no halftone dots visible at zoom, no speech bubble artifacts, no watermarks, high detail. BRONZE-AGE LIVING-WORLD PALETTE: bronze-gold light #C8A96E, sandstone #8B6E45, warm mahogany shadow #3D2810, Regnant cool-pale skin #F4F1EC (full palette reference: deep Aegean sea #2D6A8A). Close shot, brutal overexposed sunlight: Cael: 181cm lean young man, full Regnant pale skin worn loosely, ash-fair hair slightly longer and not managed, pale grey-blue eyes that move with genuine appetite, physically relaxed even now, small sealed pharmacological case at his belt. He stands with both hands pressed flat over his eyes and face like a child against the assault of the light, head tilted down, jaw tight, mid-sentence in over-precise enunciation. Vulnerable, wry, suffering openly. Bleached stone, heat haze. 2:3 portrait, no glowing effects.",
+      "negative_prompt": "NEGATIVE_SUNDERED_DEFAULT: photorealistic, 3D render, CGI, western superhero comic, bright saturated anime colours, chibi, super-deformation, visible halftone dots, speech bubble overflow, watermark, signature, blurry low-detail background, multiverse portal imagery, glowing vortex, sci-fi laser, holographic AI face, alien features on the pale figures, modern clothing, anachronistic objects, overexposed blown highlights, flat shading, text artifacts, NSFW",
+      "caption": "I stand in the middle of a plateau I have never stood on, with my hands over my face like a child, and I wait for my cardiovascular system to calm down.",
+      "caption_pov": "cael",
+      "dialogue": [],
+      "bubbles": [],
+      "variants": [
+        {
+          "file": "renders/panel_07_v1.webp",
+          "model": "black-forest-labs/flux-schnell",
+          "created_at": "2026-06-12T11:31:00.110231+00:00"
+        },
+        {
+          "file": "renders/panel_07_v2.webp",
+          "model": "black-forest-labs/flux-schnell",
+          "created_at": "2026-06-12T11:39:58.561228+00:00"
+        },
+        {
+          "file": "renders/panel_07_v3.webp",
+          "model": "black-forest-labs/flux-schnell",
+          "created_at": "2026-06-12T11:47:50.885162+00:00"
+        }
+      ],
+      "selected_variant": 0,
+      "approved": false,
+      "flagged": false,
+      "note": "",
+      "animation": {
+        "camera": "slow_zoom_in",
+        "motion_hint": "breathing, eye micro-movement",
+        "duration_s": 2.0,
+        "transition": "cut"
+      }
+    },
+    {
+      "panel": 8,
+      "scroll_beat": "the_toll_hits_the_body",
+      "shot": "extreme_close",
+      "aspect": "1:1",
+      "prompt": "STYLE_SUNDERED_WEBTOON: gritty literary sci-fi manhwa, vertical webtoon panel, dense ink linework and layered screentone, muted cool desaturated palette with selective warm accent, cinematic panel composition, ligne-claire faces with expressive ink shadow, thin clean panel borders, no halftone dots visible at zoom, no speech bubble artifacts, no watermarks, high detail. BRONZE-AGE LIVING-WORLD PALETTE: bronze-gold light #C8A96E, warm mahogany shadow #3D2810, Regnant cool-pale skin #F4F1EC (full palette reference: sandstone #8B6E45, deep Aegean sea #2D6A8A). Extreme close insert on Cael's eyes (Cael: pale grey-blue eyes that move with genuine appetite, freckle-dusting across nose bridge beginning), squinting hard against painful brightness, watering, large eyes optimised for dark and overwhelmed by full Aegean sun, the back of his neck behind reddening with the first burn. Photosensitivity rendered as a held wince. 1:1 square insert, no glowing effects.",
+      "negative_prompt": "NEGATIVE_SUNDERED_DEFAULT: photorealistic, 3D render, CGI, western superhero comic, bright saturated anime colours, chibi, super-deformation, visible halftone dots, speech bubble overflow, watermark, signature, blurry low-detail background, multiverse portal imagery, glowing vortex, sci-fi laser, holographic AI face, alien features on the pale figures, modern clothing, anachronistic objects, overexposed blown highlights, flat shading, text artifacts, NSFW",
+      "caption": "I have very large eyes that are very good in the dark and very bad in direct Aegean sunlight. This is the kind of optimisation that made sense wherever it developed and makes no sense here.",
+      "caption_pov": "cael",
+      "dialogue": [],
+      "bubbles": [],
+      "variants": [
+        {
+          "file": "renders/panel_08_v1.webp",
+          "model": "black-forest-labs/flux-schnell",
+          "created_at": "2026-06-12T11:31:19.058969+00:00"
+        },
+        {
+          "file": "renders/panel_08_v2.webp",
+          "model": "black-forest-labs/flux-schnell",
+          "created_at": "2026-06-12T11:40:12.929742+00:00"
+        },
+        {
+          "file": "renders/panel_08_v3.webp",
+          "model": "black-forest-labs/flux-schnell",
+          "created_at": "2026-06-12T11:48:04.440497+00:00"
+        }
+      ],
+      "selected_variant": 0,
+      "approved": false,
+      "flagged": false,
+      "note": "",
+      "animation": {
+        "camera": "slow_zoom_in",
+        "motion_hint": "breathing, eye micro-movement",
+        "duration_s": 2.0,
+        "transition": "cut"
+      }
+    },
+    {
+      "panel": 9,
+      "scroll_beat": "the_toll_hits_the_body",
+      "shot": "wide_thematic",
+      "aspect": "2:3",
+      "prompt": "STYLE_SUNDERED_WEBTOON: gritty literary sci-fi manhwa, vertical webtoon panel, dense ink linework and layered screentone, muted cool desaturated palette with selective warm accent, cinematic panel composition, ligne-claire faces with expressive ink shadow, thin clean panel borders, no halftone dots visible at zoom, no speech bubble artifacts, no watermarks, high detail. BRONZE-AGE LIVING-WORLD PALETTE: bronze-gold sky #C8A96E, sun-bleached limestone, sandstone #8B6E45, warm mahogany shadow #3D2810, Regnant cool-pale skin #F4F1EC (full palette reference: deep Aegean sea #2D6A8A). Wide thematic shot: four tall cool-pale Regnant figures stranded in the centre of an enormous bleached plateau under merciless sun, hands at faces, one sitting, none moving, absurdly helpless and exposed, dwarfed by the empty living world around them. Composition emphasises the gap between their evident refinement and their total physical incapacity here. Heat haze, a corvid wheeling above. 2:3 portrait, no glowing effects.",
+      "negative_prompt": "NEGATIVE_SUNDERED_DEFAULT: photorealistic, 3D render, CGI, western superhero comic, bright saturated anime colours, chibi, super-deformation, visible halftone dots, speech bubble overflow, watermark, signature, blurry low-detail background, multiverse portal imagery, glowing vortex, sci-fi laser, holographic AI face, alien features on the pale figures, modern clothing, anachronistic objects, overexposed blown highlights, flat shading, text artifacts, NSFW",
+      "caption": "We are, collectively, the most cognitively equipped group of people ever to arrive anywhere in this coordinate. We are standing in the sun with our hands over our faces.",
+      "caption_pov": "cael",
+      "dialogue": [],
+      "bubbles": [],
+      "variants": [
+        {
+          "file": "renders/panel_09_v1.webp",
+          "model": "black-forest-labs/flux-schnell",
+          "created_at": "2026-06-12T11:31:34.030114+00:00"
+        },
+        {
+          "file": "renders/panel_09_v2.webp",
+          "model": "black-forest-labs/flux-schnell",
+          "created_at": "2026-06-12T11:40:25.965527+00:00"
+        },
+        {
+          "file": "renders/panel_09_v3.webp",
+          "model": "black-forest-labs/flux-schnell",
+          "created_at": "2026-06-12T11:48:17.524621+00:00"
+        }
+      ],
+      "selected_variant": 0,
+      "approved": false,
+      "flagged": false,
+      "note": "",
+      "animation": {
+        "camera": "slow_zoom_in",
+        "motion_hint": "ambient drift",
+        "duration_s": 2.5,
+        "transition": "cut"
+      }
+    },
+    {
+      "panel": 10,
+      "scroll_beat": "the_group_assembles",
+      "shot": "group_wide",
+      "aspect": "9:16",
+      "prompt": "STYLE_SUNDERED_WEBTOON: gritty literary sci-fi manhwa, vertical webtoon panel, dense ink linework and layered screentone, muted cool desaturated palette with selective warm accent, cinematic panel composition, ligne-claire faces with expressive ink shadow, thin clean panel borders, no halftone dots visible at zoom, no speech bubble artifacts, no watermarks, high detail in background, soft focus on secondary figures. BRONZE-AGE LIVING-WORLD PALETTE: bronze-gold sky #C8A96E, sandstone #8B6E45, warm mahogany shadow #3D2810, deep Aegean sea #2D6A8A far below, Regnant cool-pale skin #F4F1EC. Group establishing on the plateau: five tall cool-pale Regnant (a tight-braided woman, an angular still man, a relaxed ash-fair man, a notebook-holding woman, a hunched instrument-man sitting) loosely scattered, and apart from them at the eastern edge three warm amber-olive-skinned Dimmed workers clustering with practical purpose. The temperature split is visual: cool pale strangers, warm-toned workers. Bleached stone, full sun. 9:16 vertical, no glowing effects.",
+      "negative_prompt": "NEGATIVE_SUNDERED_DEFAULT: photorealistic, 3D render, CGI, western superhero comic, bright saturated anime colours, chibi, super-deformation, visible halftone dots, speech bubble overflow, watermark, signature, blurry low-detail background, multiverse portal imagery, glowing vortex, sci-fi laser, holographic AI face, alien features on the pale figures, modern clothing, anachronistic objects, overexposed blown highlights, flat shading, text artifacts, NSFW",
+      "caption": "The Dimmed clustered near the eastern edge. Brenn had moved there; the others had followed without deciding to follow.",
+      "caption_pov": "aldric",
+      "dialogue": [],
+      "bubbles": [],
+      "variants": [
+        {
+          "file": "renders/panel_10_v1.webp",
+          "model": "black-forest-labs/flux-schnell",
+          "created_at": "2026-06-12T11:31:51.474315+00:00"
+        },
+        {
+          "file": "renders/panel_10_v2.webp",
+          "model": "black-forest-labs/flux-schnell",
+          "created_at": "2026-06-12T11:40:39.026148+00:00"
+        },
+        {
+          "file": "renders/panel_10_v3.webp",
+          "model": "black-forest-labs/flux-schnell",
+          "created_at": "2026-06-12T11:48:30.591241+00:00"
+        }
+      ],
+      "selected_variant": 0,
+      "approved": false,
+      "flagged": false,
+      "note": "",
+      "animation": {
+        "camera": "slow_zoom_in",
+        "motion_hint": "ambient drift",
+        "duration_s": 2.5,
+        "transition": "cut"
+      }
+    },
+    {
+      "panel": 11,
+      "scroll_beat": "the_group_assembles",
+      "shot": "medium_two_shot",
+      "aspect": "2:3",
+      "prompt": "STYLE_SUNDERED_WEBTOON: gritty literary sci-fi manhwa, vertical webtoon panel, dense ink linework and layered screentone, muted cool desaturated palette with selective warm accent, cinematic panel composition, ligne-claire faces with expressive ink shadow, thin clean panel borders, no halftone dots visible at zoom, no speech bubble artifacts, no watermarks, high detail. BRONZE-AGE LIVING-WORLD PALETTE: bronze-gold light #C8A96E, sandstone #8B6E45, warm mahogany shadow #3D2810, warm amber accent #C4A46B on the Dimmed faces (full palette reference: deep Aegean sea #2D6A8A, Regnant cool-pale skin #F4F1EC). Medium two-shot at the plateau's eastern edge: Brenn: Dimmed companion, ~25, 190cm heavyset muscular build larger than all Regnant, warm dark skin, face carrying the Dimmed warmth that looks surprising on his large frame like a very big dog that turns out to be gentle, standing with quiet purposeful competence. Beside him Ysel: Dimmed companion, mid-20s woman, warm amber-olive skin distinctly warmer than the pale Regnant, dark hair worn braided and practical, face carrying a total unfiltered warmth given to everyone and everything without selection, hands always busy or offering something, competent bearing. They are the only warm-toned figures, oriented and capable while the pale strangers are not. 2:3 portrait, no glowing effects. CAST DIFFERENTIATION (each face/silhouette clearly distinct): Signe = tight pale braid, angular precise bearing, geometric-border garment wrap; Aldric = the tallest figure, short ash-blonde hair, rigid stillness, blade at hip; Cael = loose tousled ash-fair hair, relaxed slouch, freckles, small satchel case; Marit = warm honey-toned hair in a low tie with local cloth, soft open posture, worn notebook; Oswin = compact build, cropped dark hair, unreadable neutral face, plain dress; Dimmed workers (Brenn/Ysel/Toran) = warm amber-olive skin, practical work clothes, Brenn broad and weathered, Ysel braided and bright-eyed, Toran lean and quiet.",
+      "negative_prompt": "NEGATIVE_SUNDERED_DEFAULT: photorealistic, 3D render, CGI, western superhero comic, bright saturated anime colours, chibi, super-deformation, visible halftone dots, speech bubble overflow, watermark, signature, blurry low-detail background, multiverse portal imagery, glowing vortex, sci-fi laser, holographic AI face, alien features on the pale figures, modern clothing, anachronistic objects, overexposed blown highlights, flat shading, text artifacts, NSFW",
+      "caption": "The Dimmed have oriented southeast, toward the corner of the plateau that faces the cooler sea-direction. Brenn is already doing something productive.",
+      "caption_pov": "marit",
+      "dialogue": [],
+      "bubbles": [],
+      "variants": [
+        {
+          "file": "renders/panel_11_v1.webp",
+          "model": "black-forest-labs/flux-schnell",
+          "created_at": "2026-06-12T11:32:06.964541+00:00"
+        },
+        {
+          "file": "renders/panel_11_v2.webp",
+          "model": "black-forest-labs/flux-schnell",
+          "created_at": "2026-06-12T11:40:52.302517+00:00"
+        },
+        {
+          "file": "renders/panel_11_v3.webp",
+          "model": "black-forest-labs/flux-schnell",
+          "created_at": "2026-06-12T11:48:45.226816+00:00"
+        }
+      ],
+      "selected_variant": 0,
+      "approved": false,
+      "flagged": false,
+      "note": "",
+      "animation": {
+        "camera": "slow_zoom_in",
+        "motion_hint": "ambient drift",
+        "duration_s": 2.5,
+        "transition": "cut"
+      }
+    },
+    {
+      "panel": 12,
+      "scroll_beat": "the_group_assembles",
+      "shot": "insert_object",
+      "aspect": "1:1",
+      "prompt": "STYLE_SUNDERED_WEBTOON: gritty literary sci-fi manhwa, vertical webtoon panel, dense ink linework and layered screentone, muted cool desaturated palette with selective warm accent, cinematic panel composition, expressive ink shadow, thin clean panel borders, no halftone dots visible at zoom, no speech bubble artifacts, no watermarks, high macro detail. BRONZE-AGE LIVING-WORLD PALETTE: bronze-gold ambient #C8A96E, sun-bleached limestone, warm mahogany shadow #3D2810, a single cool steel-blue status point #7BA9C8 (full palette reference: sandstone #8B6E45, deep Aegean sea #2D6A8A). Extreme insert: a pale Regnant hand (cool-luminous #F4F1EC skin) holding the Oracle — a small matte mineral slab device resting flat in the palm, smooth featureless dark-grey stone-like surface, a single tiny subtle steel-blue status light at one edge, NO holographic face, NO screen with text, NO projected display, physically unremarkable and slightly-too-perfect in finish. Warm in the hand against the bleached stone. 1:1 square insert, no glowing effects, no holograms.",
+      "negative_prompt": "NEGATIVE_SUNDERED_DEFAULT: photorealistic, 3D render, CGI, western superhero comic, bright saturated anime colours, chibi, super-deformation, visible halftone dots, speech bubble overflow, watermark, signature, blurry low-detail background, multiverse portal imagery, glowing vortex, sci-fi laser, holographic AI face, screen with text, projected display, alien features, modern clothing, anachronistic objects, overexposed blown highlights, flat shading, text artifacts, NSFW",
+      "caption": "The Oracle's interface is warm in my palm. I trigger the survival checklist.",
+      "caption_pov": "signe",
+      "dialogue": [],
+      "bubbles": [],
+      "variants": [
+        {
+          "file": "renders/panel_12_v1.webp",
+          "model": "black-forest-labs/flux-schnell",
+          "created_at": "2026-06-12T11:33:06.432782+00:00"
+        },
+        {
+          "file": "renders/panel_12_v2.webp",
+          "model": "black-forest-labs/flux-schnell",
+          "created_at": "2026-06-12T11:41:05.322691+00:00"
+        },
+        {
+          "file": "renders/panel_12_v3.webp",
+          "model": "black-forest-labs/flux-schnell",
+          "created_at": "2026-06-12T11:48:58.275455+00:00"
+        }
+      ],
+      "selected_variant": 0,
+      "approved": false,
+      "flagged": false,
+      "note": "",
+      "animation": {
+        "camera": "hold",
+        "motion_hint": "subtle focus pull",
+        "duration_s": 1.5,
+        "transition": "cut"
+      }
+    },
+    {
+      "panel": 13,
+      "scroll_beat": "the_group_assembles",
+      "shot": "close",
+      "aspect": "2:3",
+      "prompt": "STYLE_SUNDERED_WEBTOON: gritty literary sci-fi manhwa, vertical webtoon panel, dense ink linework and layered screentone, muted cool desaturated palette with selective warm accent, cinematic panel composition, ligne-claire faces with expressive ink shadow, thin clean panel borders, no halftone dots visible at zoom, no speech bubble artifacts, no watermarks, high detail. BRONZE-AGE LIVING-WORLD PALETTE: bronze-gold light #C8A96E, sandstone #8B6E45, warm mahogany shadow #3D2810, warm amber accent #C4A46B (full palette reference: deep Aegean sea #2D6A8A, Regnant cool-pale skin #F4F1EC). Close shot at the cliff's north edge: Toran: Dimmed companion, young man ~20, warm skin tone darker than the Regnant, compact build, face in the same warm undiscriminating attending expression as all Dimmed, patient still posture of someone for whom waiting and attending are the same quality. He stands looking over the cliff edge with flat uninvested attention, performing a routine structural check, unhurried, calm. Bleached stone, sea far below. 2:3 portrait, no glowing effects.",
+      "negative_prompt": "NEGATIVE_SUNDERED_DEFAULT: photorealistic, 3D render, CGI, western superhero comic, bright saturated anime colours, chibi, super-deformation, visible halftone dots, speech bubble overflow, watermark, signature, blurry low-detail background, multiverse portal imagery, glowing vortex, sci-fi laser, holographic AI face, alien features on the pale figures, modern clothing, anachronistic objects, overexposed blown highlights, flat shading, text artifacts, NSFW",
+      "caption": "Toran is on the plateau's north edge, looking over the cliff with the flat, uninvested attention of someone doing a routine structural check.",
+      "caption_pov": "marit",
+      "dialogue": [],
+      "bubbles": [],
+      "variants": [
+        {
+          "file": "renders/panel_13_v1.webp",
+          "model": "black-forest-labs/flux-schnell",
+          "created_at": "2026-06-12T11:33:19.768529+00:00"
+        },
+        {
+          "file": "renders/panel_13_v2.webp",
+          "model": "black-forest-labs/flux-schnell",
+          "created_at": "2026-06-12T11:41:18.386548+00:00"
+        },
+        {
+          "file": "renders/panel_13_v3.webp",
+          "model": "black-forest-labs/flux-schnell",
+          "created_at": "2026-06-12T11:49:11.596998+00:00"
+        }
+      ],
+      "selected_variant": 0,
+      "approved": false,
+      "flagged": false,
+      "note": "",
+      "animation": {
+        "camera": "slow_zoom_in",
+        "motion_hint": "breathing, eye micro-movement",
+        "duration_s": 2.0,
+        "transition": "cut"
+      }
+    },
+    {
+      "panel": 14,
+      "scroll_beat": "aldrics_cold_survey",
+      "shot": "medium",
+      "aspect": "2:3",
+      "prompt": "STYLE_SUNDERED_WEBTOON: gritty literary sci-fi manhwa, vertical webtoon panel, dense ink linework and layered screentone, muted cool desaturated palette with selective warm accent, cinematic panel composition, ligne-claire faces with expressive ink shadow, cold institutional eye-level of authority, thin clean panel borders, no halftone dots visible at zoom, no speech bubble artifacts, no watermarks, high detail. BRONZE-AGE LIVING-WORLD PALETTE: bronze-gold sky #C8A96E, sandstone #8B6E45, warm mahogany shadow #3D2810, Regnant cool-pale skin #F4F1EC (full palette reference: deep Aegean sea #2D6A8A). Medium shot: Aldric: 188cm lean angular young man, near-luminous cool-white skin, short ash-blonde hair dense and does not lift in wind, very pale wide-set grey eyes that collect available light, face extremely still with fine bone structure, superalloy blade at hip with fractionally-wrong brightness, wearing cool linen with a fine bronze clasp. He stands utterly motionless in the full sun, eyes moving over the terrace, surveying, the only person not visibly distressed, reading the land as a problem to solve. The coldest temperature in a warm scene. Bleached plateau stretching behind. 2:3 portrait, no glowing effects.",
+      "negative_prompt": "NEGATIVE_SUNDERED_DEFAULT: photorealistic, 3D render, CGI, western superhero comic, bright saturated anime colours, chibi, super-deformation, visible halftone dots, speech bubble overflow, watermark, signature, blurry low-detail background, multiverse portal imagery, glowing vortex, sci-fi laser, holographic AI face, alien features on the pale figures, modern clothing, anachronistic objects, overexposed blown highlights, flat shading, text artifacts, NSFW",
+      "caption": "Aldric stood still for eight seconds while his vision cleared. He used the eight seconds. He looked at his people.",
+      "caption_pov": "aldric",
+      "dialogue": [],
+      "bubbles": [],
+      "variants": [
+        {
+          "file": "renders/panel_14_v1.webp",
+          "model": "black-forest-labs/flux-schnell",
+          "created_at": "2026-06-12T11:33:36.230251+00:00"
+        },
+        {
+          "file": "renders/panel_14_v2.webp",
+          "model": "black-forest-labs/flux-schnell",
+          "created_at": "2026-06-12T11:41:31.632304+00:00"
+        },
+        {
+          "file": "renders/panel_14_v3.webp",
+          "model": "black-forest-labs/flux-schnell",
+          "created_at": "2026-06-12T11:49:25.241024+00:00"
+        }
+      ],
+      "selected_variant": 0,
+      "approved": false,
+      "flagged": false,
+      "note": "",
+      "animation": {
+        "camera": "slow_zoom_in",
+        "motion_hint": "ambient drift",
+        "duration_s": 2.5,
+        "transition": "cut"
+      }
+    },
+    {
+      "panel": 15,
+      "scroll_beat": "aldrics_cold_survey",
+      "shot": "establishing_high_angle",
+      "aspect": "9:16",
+      "prompt": "STYLE_SUNDERED_WEBTOON: gritty literary sci-fi manhwa, vertical webtoon panel, dense ink linework and layered screentone, muted cool desaturated palette with selective warm accent, cinematic panel composition, expressive ink shadow, thin clean panel borders, no halftone dots visible at zoom, no speech bubble artifacts, no watermarks, high detail in background. BRONZE-AGE LIVING-WORLD PALETTE: bronze-gold sky #C8A96E, sun-bleached karst, sandstone #8B6E45, warm mahogany shadow #3D2810, deep Aegean sea #2D6A8A far below (full palette reference: Regnant cool-pale skin #F4F1EC). High-angle survey shot, Aldric's strategic read: a four-and-a-half-hectare terrace of bleached karst limestone tilted slightly south toward the coast, thyme and carob scrub at the south and east margins, the cliff edge and the sea far below, complete absence of shade structure anywhere on the bare stone, sun near overhead radiating heat off the rock. Tiny figures scattered for scale. A landscape read as an inventory of liabilities. 9:16 vertical, no glowing effects.",
+      "negative_prompt": "NEGATIVE_SUNDERED_DEFAULT: photorealistic, 3D render, CGI, western superhero comic, bright saturated anime colours, chibi, super-deformation, visible halftone dots, speech bubble overflow, watermark, signature, blurry low-detail background, multiverse portal imagery, glowing vortex, sci-fi laser, holographic AI face, alien features on the pale figures, modern clothing, anachronistic objects, overexposed blown highlights, flat shading, text artifacts, NSFW",
+      "caption": "The plateau was limestone, exposed, a four-and-a-half hectare terrace of bleached karst tilted slightly south toward the coast.",
+      "caption_pov": "aldric",
+      "dialogue": [],
+      "bubbles": [],
+      "variants": [
+        {
+          "file": "renders/panel_15_v1.webp",
+          "model": "black-forest-labs/flux-schnell",
+          "created_at": "2026-06-12T11:33:49.943209+00:00"
+        },
+        {
+          "file": "renders/panel_15_v2.webp",
+          "model": "black-forest-labs/flux-schnell",
+          "created_at": "2026-06-12T11:41:45.059710+00:00"
+        },
+        {
+          "file": "renders/panel_15_v3.webp",
+          "model": "black-forest-labs/flux-schnell",
+          "created_at": "2026-06-12T11:49:39.103677+00:00"
+        }
+      ],
+      "selected_variant": 0,
+      "approved": false,
+      "flagged": false,
+      "note": "",
+      "animation": {
+        "camera": "slow_pan_right",
+        "motion_hint": "wind in scrub, distant sea glitter",
+        "duration_s": 3.0,
+        "transition": "cut"
+      }
+    },
+    {
+      "panel": 16,
+      "scroll_beat": "aldrics_cold_survey",
+      "shot": "medium_pov_read",
+      "aspect": "2:3",
+      "prompt": "STYLE_SUNDERED_WEBTOON: gritty literary sci-fi manhwa, vertical webtoon panel, dense ink linework and layered screentone, muted cool desaturated palette with selective warm accent, cinematic panel composition, ligne-claire faces with expressive ink shadow, cold analytical staging, thin clean panel borders, no halftone dots visible at zoom, no speech bubble artifacts, no watermarks, high detail. BRONZE-AGE LIVING-WORLD PALETTE: bronze-gold sky #C8A96E, sandstone #8B6E45, warm mahogany shadow #3D2810, Regnant cool-pale skin #F4F1EC, warm amber accent #C4A46B on Dimmed (full palette reference: deep Aegean sea #2D6A8A). Over-shoulder of Aldric (188cm angular still man, ash-blonde, pale grey eyes, faintly-too-bright blade at hip) coldly assessing his scattered group as capabilities rather than people: the tight-braided woman cataloguing her own body, the relaxed man with hands at his face, the warm broad Dimmed worker at the edge with quiet purpose. Aldric's gaze is an inventory, each figure tagged as an asset. Bleached stone, full sun. 2:3 portrait, no glowing effects.",
+      "negative_prompt": "NEGATIVE_SUNDERED_DEFAULT: photorealistic, 3D render, CGI, western superhero comic, bright saturated anime colours, chibi, super-deformation, visible halftone dots, speech bubble overflow, watermark, signature, blurry low-detail background, multiverse portal imagery, glowing vortex, sci-fi laser, holographic AI face, alien features on the pale figures, modern clothing, anachronistic objects, overexposed blown highlights, flat shading, text artifacts, NSFW",
+      "caption": "He logged Brenn's purposefulness with the same precision he had logged Signe's engram knowledge, Cael's pharmaceutical inventory, and Marit's apparent immunity to the shock of wilderness.",
+      "caption_pov": "aldric",
+      "dialogue": [],
+      "bubbles": [],
+      "variants": [
+        {
+          "file": "renders/panel_16_v1.webp",
+          "model": "black-forest-labs/flux-schnell",
+          "created_at": "2026-06-12T11:34:04.242959+00:00"
+        },
+        {
+          "file": "renders/panel_16_v2.webp",
+          "model": "black-forest-labs/flux-schnell",
+          "created_at": "2026-06-12T11:41:58.595595+00:00"
+        },
+        {
+          "file": "renders/panel_16_v3.webp",
+          "model": "black-forest-labs/flux-schnell",
+          "created_at": "2026-06-12T11:49:52.413561+00:00"
+        }
+      ],
+      "selected_variant": 0,
+      "approved": false,
+      "flagged": false,
+      "note": "",
+      "animation": {
+        "camera": "slow_zoom_in",
+        "motion_hint": "ambient drift",
+        "duration_s": 2.5,
+        "transition": "cut"
+      }
+    },
+    {
+      "panel": 17,
+      "scroll_beat": "water_the_first_objective",
+      "shot": "insert_water",
+      "aspect": "1:1",
+      "prompt": "STYLE_SUNDERED_WEBTOON: gritty literary sci-fi manhwa, vertical webtoon panel, dense ink linework and layered screentone, muted cool desaturated palette with selective warm accent, cinematic panel composition, expressive ink shadow, thin clean panel borders, no halftone dots visible at zoom, no speech bubble artifacts, no watermarks, high macro detail. BRONZE-AGE LIVING-WORLD PALETTE: bronze-gold ambient #C8A96E, sun-bleached limestone, sandstone #8B6E45, warm mahogany shadow #3D2810 (full palette reference: deep Aegean sea #2D6A8A, Regnant cool-pale skin #F4F1EC). Insert: six plain rugged water containers grouped on the bleached limestone in the sun, twelve litres total, the group's entire water supply, casting hard short shadows, the bare exposed plateau around them with no shade. The scarcity made an object. No people. 1:1 square insert, no glowing effects.",
+      "negative_prompt": "NEGATIVE_SUNDERED_DEFAULT: photorealistic, 3D render, CGI, western superhero comic, bright saturated anime colours, chibi, super-deformation, visible halftone dots, speech bubble overflow, watermark, signature, blurry low-detail background, multiverse portal imagery, glowing vortex, sci-fi laser, holographic AI face, modern plastic bottles, anachronistic objects, overexposed blown highlights, flat shading, text artifacts, NSFW",
+      "caption": "We arrived with twelve litres of water in six containers, which gives each of us under two litres, and it is already approaching midday. Priority one is shade. Priority two is water. Priority three is fire.",
+      "caption_pov": "signe",
+      "dialogue": [],
+      "bubbles": [],
+      "variants": [
+        {
+          "file": "renders/panel_17_v1.webp",
+          "model": "black-forest-labs/flux-schnell",
+          "created_at": "2026-06-12T11:34:17.837013+00:00"
+        },
+        {
+          "file": "renders/panel_17_v2.webp",
+          "model": "black-forest-labs/flux-schnell",
+          "created_at": "2026-06-12T11:42:12.436074+00:00"
+        },
+        {
+          "file": "renders/panel_17_v3.webp",
+          "model": "black-forest-labs/flux-schnell",
+          "created_at": "2026-06-12T11:50:05.635909+00:00"
+        }
+      ],
+      "selected_variant": 0,
+      "approved": false,
+      "flagged": false,
+      "note": "",
+      "animation": {
+        "camera": "hold",
+        "motion_hint": "subtle focus pull",
+        "duration_s": 1.5,
+        "transition": "cut"
+      }
+    },
+    {
+      "panel": 18,
+      "scroll_beat": "water_the_first_objective",
+      "shot": "wide_thematic",
+      "aspect": "2:3",
+      "prompt": "STYLE_SUNDERED_WEBTOON: gritty literary sci-fi manhwa, vertical webtoon panel, dense ink linework and layered screentone, muted cool desaturated palette with selective warm accent, cinematic panel composition, expressive ink shadow, thin clean panel borders, no halftone dots visible at zoom, no speech bubble artifacts, no watermarks, high detail. BRONZE-AGE LIVING-WORLD PALETTE: bronze-gold sky #C8A96E, sun-bleached limestone, sandstone #8B6E45, warm mahogany shadow #3D2810, Regnant cool-pale skin #F4F1EC (full palette reference: deep Aegean sea #2D6A8A). Wide static thematic shot: the group frozen in place on the bare plateau under the high sun, nobody yet moving toward water, a long stalled inaction, distress turning everyone inward. The sun's position emphasised at near-zenith. Bodies that know the priority and cannot yet act on it. Heat haze rising. 2:3 portrait, no glowing effects.",
+      "negative_prompt": "NEGATIVE_SUNDERED_DEFAULT: photorealistic, 3D render, CGI, western superhero comic, bright saturated anime colours, chibi, super-deformation, visible halftone dots, speech bubble overflow, watermark, signature, blurry low-detail background, multiverse portal imagery, glowing vortex, sci-fi laser, holographic AI face, alien features on the pale figures, modern clothing, anachronistic objects, overexposed blown highlights, flat shading, text artifacts, NSFW",
+      "caption": "Arranging things in the correct priority order and being physically capable of acting on them immediately are separate skills, and the crossing has temporarily degraded the second one.",
+      "caption_pov": "signe",
+      "dialogue": [],
+      "bubbles": [],
+      "variants": [
+        {
+          "file": "renders/panel_18_v1.webp",
+          "model": "black-forest-labs/flux-schnell",
+          "created_at": "2026-06-12T11:34:32.397446+00:00"
+        },
+        {
+          "file": "renders/panel_18_v2.webp",
+          "model": "black-forest-labs/flux-schnell",
+          "created_at": "2026-06-12T11:42:26.611421+00:00"
+        },
+        {
+          "file": "renders/panel_18_v3.webp",
+          "model": "black-forest-labs/flux-schnell",
+          "created_at": "2026-06-12T11:50:19.078981+00:00"
+        }
+      ],
+      "selected_variant": 0,
+      "approved": false,
+      "flagged": false,
+      "note": "",
+      "animation": {
+        "camera": "slow_zoom_in",
+        "motion_hint": "ambient drift",
+        "duration_s": 2.5,
+        "transition": "cut"
+      }
+    },
+    {
+      "panel": 19,
+      "scroll_beat": "fire_aldric_fails",
+      "shot": "medium",
+      "aspect": "2:3",
+      "prompt": "STYLE_SUNDERED_WEBTOON: gritty literary sci-fi manhwa, vertical webtoon panel, dense ink linework and layered screentone, muted cool desaturated palette with selective warm accent, cinematic panel composition, ligne-claire faces with expressive ink shadow, thin clean panel borders, no halftone dots visible at zoom, no speech bubble artifacts, no watermarks, high detail. BRONZE-AGE LIVING-WORLD PALETTE: bronze-gold light #C8A96E, sandstone #8B6E45, warm mahogany shadow #3D2810, Regnant cool-pale skin #F4F1EC (full palette reference: deep Aegean sea #2D6A8A). Medium shot: Aldric: 188cm lean angular young man, near-luminous cool-white skin, short ash-blonde hair, very pale wide-set grey eyes, face extremely still with fine bone structure, superalloy blade at hip with fractionally-wrong brightness, cool linen. He crouches over a handful of grey-green dry field-margin grass, striking a ferro rod / firesteel, producing thin apologetic smoke and no flame, his still face holding faint controlled frustration. The most strategically capable man losing an argument with some grass. Bleached stone, full sun. 2:3 portrait, no glowing effects.",
+      "negative_prompt": "NEGATIVE_SUNDERED_DEFAULT: photorealistic, 3D render, CGI, western superhero comic, bright saturated anime colours, chibi, super-deformation, visible halftone dots, speech bubble overflow, watermark, signature, blurry low-detail background, multiverse portal imagery, glowing vortex, sci-fi laser, holographic AI face, alien features on the pale figures, modern clothing, anachronistic objects, overexposed blown highlights, flat shading, text artifacts, NSFW",
+      "caption": "Aldric is over by the dry grass with the ferro rod, striking sparks and producing a thin, apologetic smoke and no fire.",
+      "caption_pov": "cael",
+      "dialogue": [],
+      "bubbles": [],
+      "variants": [
+        {
+          "file": "renders/panel_19_v1.webp",
+          "model": "black-forest-labs/flux-schnell",
+          "created_at": "2026-06-12T11:34:45.498073+00:00"
+        },
+        {
+          "file": "renders/panel_19_v2.webp",
+          "model": "black-forest-labs/flux-schnell",
+          "created_at": "2026-06-12T11:42:39.657916+00:00"
+        },
+        {
+          "file": "renders/panel_19_v3.webp",
+          "model": "black-forest-labs/flux-schnell",
+          "created_at": "2026-06-12T11:50:32.884205+00:00"
+        }
+      ],
+      "selected_variant": 0,
+      "approved": false,
+      "flagged": false,
+      "note": "",
+      "animation": {
+        "camera": "slow_zoom_in",
+        "motion_hint": "ambient drift",
+        "duration_s": 2.5,
+        "transition": "cut"
+      }
+    },
+    {
+      "panel": 20,
+      "scroll_beat": "fire_knowledge_insert_tinder",
+      "shot": "instructional_insert",
+      "aspect": "1:1",
+      "prompt": "STYLE_SUNDERED_WEBTOON: gritty literary sci-fi manhwa, vertical webtoon panel, dense ink linework and layered screentone, muted cool desaturated palette with selective warm accent, cinematic panel composition, clean instructional clarity, expressive ink shadow, thin clean panel borders, no halftone dots visible at zoom, no speech bubble artifacts, no watermarks, high macro detail. BRONZE-AGE LIVING-WORLD PALETTE: bronze-gold ambient #C8A96E, sun-bleached limestone, sandstone #8B6E45, warm mahogany shadow #3D2810 (full palette reference: deep Aegean sea #2D6A8A, Regnant cool-pale skin #F4F1EC). Instructional macro insert showing the ACTUAL technique: two tufts of wild grass side by side on white stone — on the left greener field-margin grass that bends, slightly damp from morning dew, the wrong tinder; on the right paler bone-dry grass two shades lighter, taken from a sun-heated hollow, that snaps. A warm dark Dimmed hand (amber-olive skin) testing a stem between fingers, reading dryness by whether it bends or snaps. The real survival knowledge made visible. 1:1 square insert, no glowing effects.",
+      "negative_prompt": "NEGATIVE_SUNDERED_DEFAULT: photorealistic, 3D render, CGI, western superhero comic, bright saturated anime colours, chibi, super-deformation, visible halftone dots, speech bubble overflow, watermark, signature, blurry low-detail background, multiverse portal imagery, glowing vortex, sci-fi laser, holographic AI face, modern clothing, anachronistic objects, overexposed blown highlights, flat shading, text artifacts, NSFW",
+      "caption": "The grass two shades lighter that snapped rather than bent. You can catch it with a tongue-touch, or by whether the stem bends or snaps.",
+      "caption_pov": "signe",
+      "dialogue": [],
+      "bubbles": [],
+      "variants": [
+        {
+          "file": "renders/panel_20_v1.webp",
+          "model": "black-forest-labs/flux-schnell",
+          "created_at": "2026-06-12T11:34:58.668226+00:00"
+        },
+        {
+          "file": "renders/panel_20_v2.webp",
+          "model": "black-forest-labs/flux-schnell",
+          "created_at": "2026-06-12T11:42:53.418218+00:00"
+        },
+        {
+          "file": "renders/panel_20_v3.webp",
+          "model": "black-forest-labs/flux-schnell",
+          "created_at": "2026-06-12T11:50:46.405926+00:00"
+        }
+      ],
+      "selected_variant": 0,
+      "approved": false,
+      "flagged": false,
+      "note": "",
+      "animation": {
+        "camera": "hold",
+        "motion_hint": "subtle focus pull",
+        "duration_s": 1.5,
+        "transition": "cut"
+      }
+    },
+    {
+      "panel": 21,
+      "scroll_beat": "fire_brenn_makes_fire",
+      "shot": "action_medium",
+      "aspect": "2:3",
+      "prompt": "STYLE_SUNDERED_WEBTOON: gritty literary sci-fi manhwa, vertical webtoon panel, dense ink linework and layered screentone, muted cool desaturated palette with selective warm accent, cinematic panel composition, ligne-claire faces with expressive ink shadow, thin clean panel borders, no halftone dots visible at zoom, no speech bubble artifacts, no watermarks, high detail. BRONZE-AGE LIVING-WORLD PALETTE: bronze-gold light #C8A96E, sandstone #8B6E45, warm mahogany shadow #3D2810, warm amber accent #C4A46B (full palette reference: deep Aegean sea #2D6A8A, Regnant cool-pale skin #F4F1EC). Action shot in a shallow limestone depression: Brenn: Dimmed companion, ~25, 190cm heavyset muscular build larger than all Regnant, warm dark skin, face carrying the Dimmed warmth that looks surprising on his large frame like a very big dog that turns out to be gentle. He works the dry pale grass and a fire-bow friction set with unhurried total competence, hands sure, reading the materials by feel without appearing to test anything. Action-without-comment. Bleached stone around. 2:3 portrait, no glowing effects.",
+      "negative_prompt": "NEGATIVE_SUNDERED_DEFAULT: photorealistic, 3D render, CGI, western superhero comic, bright saturated anime colours, chibi, super-deformation, visible halftone dots, speech bubble overflow, watermark, signature, blurry low-detail background, multiverse portal imagery, glowing vortex, sci-fi laser, holographic AI face, alien features on the pale figures, modern clothing, anachronistic objects, overexposed blown highlights, flat shading, text artifacts, NSFW",
+      "caption": "He read the grass with his hands and the fire was lit before I had finished diagnosing why mine would not have caught.",
+      "caption_pov": "signe",
+      "dialogue": [],
+      "bubbles": [],
+      "variants": [
+        {
+          "file": "renders/panel_21_v1.webp",
+          "model": "black-forest-labs/flux-schnell",
+          "created_at": "2026-06-12T11:35:12.533724+00:00"
+        },
+        {
+          "file": "renders/panel_21_v2.webp",
+          "model": "black-forest-labs/flux-schnell",
+          "created_at": "2026-06-12T11:43:07.161221+00:00"
+        },
+        {
+          "file": "renders/panel_21_v3.webp",
+          "model": "black-forest-labs/flux-schnell",
+          "created_at": "2026-06-12T11:50:59.972653+00:00"
+        }
+      ],
+      "selected_variant": 0,
+      "approved": false,
+      "flagged": false,
+      "note": "",
+      "animation": {
+        "camera": "tracking",
+        "motion_hint": "primary action loops once",
+        "duration_s": 2.0,
+        "transition": "cut"
+      }
+    },
+    {
+      "panel": 22,
+      "scroll_beat": "fire_knowledge_insert_friction",
+      "shot": "instructional_insert",
+      "aspect": "1:1",
+      "prompt": "STYLE_SUNDERED_WEBTOON: gritty literary sci-fi manhwa, vertical webtoon panel, dense ink linework and layered screentone, muted cool desaturated palette with selective warm accent, cinematic panel composition, clean instructional clarity, expressive ink shadow, thin clean panel borders, no halftone dots visible at zoom, no speech bubble artifacts, no watermarks, high macro detail. BRONZE-AGE LIVING-WORLD PALETTE: bronze-gold ambient #C8A96E, sun-bleached limestone, sandstone #8B6E45, warm mahogany shadow #3D2810, a faint warm amber ember (full palette reference: deep Aegean sea #2D6A8A, Regnant cool-pale skin #F4F1EC). Instructional macro insert of the ACTUAL friction-fire technique: two warm dark Dimmed hands working a bow-drill — a curved bow strung with cord wrapped once around a vertical spindle, the spindle tip seated in a notched fireboard hearth, fine wood dust collecting in the notch beginning to darken into a glowing ember, a small bundle of bone-dry pale grass tinder waiting beside it. Step-by-step real method, clearly readable. 1:1 square insert, no glowing effects beyond a small natural ember.",
+      "negative_prompt": "NEGATIVE_SUNDERED_DEFAULT: photorealistic, 3D render, CGI, western superhero comic, bright saturated anime colours, chibi, super-deformation, visible halftone dots, speech bubble overflow, watermark, signature, blurry low-detail background, multiverse portal imagery, glowing vortex, sci-fi laser, holographic AI face, modern clothing, anachronistic objects, overexposed blown highlights, flat shading, text artifacts, NSFW",
+      "caption": "The knowledge is in him in a form I do not have a name for and cannot extract.",
+      "caption_pov": "signe",
+      "dialogue": [],
+      "bubbles": [],
+      "variants": [
+        {
+          "file": "renders/panel_22_v1.webp",
+          "model": "black-forest-labs/flux-schnell",
+          "created_at": "2026-06-12T11:35:26.133263+00:00"
+        },
+        {
+          "file": "renders/panel_22_v2.webp",
+          "model": "black-forest-labs/flux-schnell",
+          "created_at": "2026-06-12T11:43:21.292250+00:00"
+        },
+        {
+          "file": "renders/panel_22_v3.webp",
+          "model": "black-forest-labs/flux-schnell",
+          "created_at": "2026-06-12T11:51:13.336849+00:00"
+        }
+      ],
+      "selected_variant": 0,
+      "approved": false,
+      "flagged": false,
+      "note": "",
+      "animation": {
+        "camera": "hold",
+        "motion_hint": "subtle focus pull",
+        "duration_s": 1.5,
+        "transition": "cut"
+      }
+    },
+    {
+      "panel": 23,
+      "scroll_beat": "fire_knowledge_insert_ember",
+      "shot": "instructional_insert",
+      "aspect": "1:1",
+      "prompt": "STYLE_SUNDERED_WEBTOON: gritty literary sci-fi manhwa, vertical webtoon panel, dense ink linework and layered screentone, muted cool desaturated palette with selective warm accent, cinematic panel composition, clean instructional clarity, expressive ink shadow, thin clean panel borders, no halftone dots visible at zoom, no speech bubble artifacts, no watermarks, high macro detail. BRONZE-AGE LIVING-WORLD PALETTE: bronze-gold ambient #C8A96E, sun-bleached limestone, warm mahogany shadow #3D2810, warm amber firelight #C4A46B (full palette reference: sandstone #8B6E45, deep Aegean sea #2D6A8A, Regnant cool-pale skin #F4F1EC). Instructional macro insert, final step of fire-making: two warm dark Dimmed hands cradling a small bundle of bone-dry pale grass tinder around a glowing ember, lifting it and breathing onto it so the bundle catches into first flame, a thin curl of smoke turning into orange fire. The ember-to-flame moment made explicit and teachable. 1:1 square insert, natural firelight only, no glowing magic.",
+      "negative_prompt": "NEGATIVE_SUNDERED_DEFAULT: photorealistic, 3D render, CGI, western superhero comic, bright saturated anime colours, chibi, super-deformation, visible halftone dots, speech bubble overflow, watermark, signature, blurry low-detail background, multiverse portal imagery, glowing vortex, sci-fi laser, holographic AI face, modern clothing, anachronistic objects, overexposed blown highlights, flat shading, text artifacts, NSFW",
+      "caption": "Then Brenn makes fire, in about the time it takes Aldric to fail at it twice.",
+      "caption_pov": "cael",
+      "dialogue": [],
+      "bubbles": [],
+      "variants": [
+        {
+          "file": "renders/panel_23_v1.webp",
+          "model": "black-forest-labs/flux-schnell",
+          "created_at": "2026-06-12T11:35:40.349051+00:00"
+        },
+        {
+          "file": "renders/panel_23_v2.webp",
+          "model": "black-forest-labs/flux-schnell",
+          "created_at": "2026-06-12T11:43:35.069660+00:00"
+        },
+        {
+          "file": "renders/panel_23_v3.webp",
+          "model": "black-forest-labs/flux-schnell",
+          "created_at": "2026-06-12T11:51:26.759708+00:00"
+        }
+      ],
+      "selected_variant": 0,
+      "approved": false,
+      "flagged": false,
+      "note": "",
+      "animation": {
+        "camera": "hold",
+        "motion_hint": "subtle focus pull",
+        "duration_s": 1.5,
+        "transition": "cut"
+      }
+    },
+    {
+      "panel": 24,
+      "scroll_beat": "fire_the_reversal",
+      "shot": "wide_two_groups",
+      "aspect": "2:3",
+      "prompt": "STYLE_SUNDERED_WEBTOON: gritty literary sci-fi manhwa, vertical webtoon panel, dense ink linework and layered screentone, muted cool desaturated palette with selective warm accent, cinematic panel composition, ligne-claire faces with expressive ink shadow, thin clean panel borders, no halftone dots visible at zoom, no speech bubble artifacts, no watermarks, high detail. BRONZE-AGE LIVING-WORLD PALETTE: bronze-gold light #C8A96E, sandstone #8B6E45, warm mahogany shadow #3D2810, warm amber firelight #C4A46B (full palette reference: deep Aegean sea #2D6A8A, Regnant cool-pale skin #F4F1EC). Wide composition contrasting the capability reversal: in the foreground a small clean orange fire in the limestone depression with the broad warm Dimmed worker (Brenn, amber-olive skin) beside it, calm; in the background the tall cold pale Regnant (Aldric, ash-blonde, blade at hip) standing over his dead smoking grass with empty hands. The fact stated by composition: knowledge versus capability. Bleached plateau, full sun. 2:3 portrait, no glowing effects. CAST DIFFERENTIATION (each face/silhouette clearly distinct): Signe = tight pale braid, angular precise bearing, geometric-border garment wrap; Aldric = the tallest figure, short ash-blonde hair, rigid stillness, blade at hip; Cael = loose tousled ash-fair hair, relaxed slouch, freckles, small satchel case; Marit = warm honey-toned hair in a low tie with local cloth, soft open posture, worn notebook; Oswin = compact build, cropped dark hair, unreadable neutral face, plain dress; Dimmed workers (Brenn/Ysel/Toran) = warm amber-olive skin, practical work clothes, Brenn broad and weathered, Ysel braided and bright-eyed, Toran lean and quiet.",
+      "negative_prompt": "NEGATIVE_SUNDERED_DEFAULT: photorealistic, 3D render, CGI, western superhero comic, bright saturated anime colours, chibi, super-deformation, visible halftone dots, speech bubble overflow, watermark, signature, blurry low-detail background, multiverse portal imagery, glowing vortex, sci-fi laser, holographic AI face, alien features on the pale figures, modern clothing, anachronistic objects, overexposed blown highlights, flat shading, text artifacts, NSFW",
+      "caption": "We went to university. He went to work. We can derive the combustion equations. He can make the fire.",
+      "caption_pov": "cael",
+      "dialogue": [],
+      "bubbles": [],
+      "variants": [
+        {
+          "file": "renders/panel_24_v1.webp",
+          "model": "black-forest-labs/flux-schnell",
+          "created_at": "2026-06-12T11:35:53.379583+00:00"
+        },
+        {
+          "file": "renders/panel_24_v2.webp",
+          "model": "black-forest-labs/flux-schnell",
+          "created_at": "2026-06-12T11:43:48.689912+00:00"
+        },
+        {
+          "file": "renders/panel_24_v3.webp",
+          "model": "black-forest-labs/flux-schnell",
+          "created_at": "2026-06-12T11:51:40.703761+00:00"
+        }
+      ],
+      "selected_variant": 0,
+      "approved": false,
+      "flagged": false,
+      "note": "",
+      "animation": {
+        "camera": "slow_zoom_in",
+        "motion_hint": "ambient drift",
+        "duration_s": 2.5,
+        "transition": "cut"
+      }
+    },
+    {
+      "panel": 25,
+      "scroll_beat": "fire_the_reversal",
+      "shot": "close",
+      "aspect": "2:3",
+      "prompt": "STYLE_SUNDERED_WEBTOON: gritty literary sci-fi manhwa, vertical webtoon panel, dense ink linework and layered screentone, muted cool desaturated palette with selective warm accent, cinematic panel composition, ligne-claire faces with expressive ink shadow, thin clean panel borders, no halftone dots visible at zoom, no speech bubble artifacts, no watermarks, high detail. BRONZE-AGE LIVING-WORLD PALETTE: bronze-gold light #C8A96E, sandstone #8B6E45, warm mahogany shadow #3D2810, Regnant cool-pale skin #F4F1EC, warm amber accent on the kit (full palette reference: deep Aegean sea #2D6A8A). Close shot: Cael: 181cm lean young man, full Regnant pale skin worn loosely, ash-fair hair slightly longer and not managed, pale grey-blue eyes that move with genuine appetite, freckle-dusting across nose bridge beginning, small sealed pharmacological case open in his hands. He smears a topical sunscreen-equivalent paste onto the reddening burned back of his own neck, wry resigned expression, watching the fire off-frame. Self-triage. Bleached stone, full sun. 2:3 portrait, no glowing effects.",
+      "negative_prompt": "NEGATIVE_SUNDERED_DEFAULT: photorealistic, 3D render, CGI, western superhero comic, bright saturated anime colours, chibi, super-deformation, visible halftone dots, speech bubble overflow, watermark, signature, blurry low-detail background, multiverse portal imagery, glowing vortex, sci-fi laser, holographic AI face, alien features on the pale figures, modern clothing, anachronistic objects, overexposed blown highlights, flat shading, text artifacts, NSFW",
+      "caption": "The headache I can survive for two hours and the sunburn I can slow down right now. That is the kind of triage the Oracle did not suggest and I arrived at myself.",
+      "caption_pov": "cael",
+      "dialogue": [],
+      "bubbles": [],
+      "variants": [
+        {
+          "file": "renders/panel_25_v1.webp",
+          "model": "black-forest-labs/flux-schnell",
+          "created_at": "2026-06-12T11:36:07.705692+00:00"
+        },
+        {
+          "file": "renders/panel_25_v2.webp",
+          "model": "black-forest-labs/flux-schnell",
+          "created_at": "2026-06-12T11:44:02.871807+00:00"
+        },
+        {
+          "file": "renders/panel_25_v3.webp",
+          "model": "black-forest-labs/flux-schnell",
+          "created_at": "2026-06-12T11:51:54.493847+00:00"
+        }
+      ],
+      "selected_variant": 0,
+      "approved": false,
+      "flagged": false,
+      "note": "",
+      "animation": {
+        "camera": "slow_zoom_in",
+        "motion_hint": "breathing, eye micro-movement",
+        "duration_s": 2.0,
+        "transition": "cut"
+      }
+    },
+    {
+      "panel": 26,
+      "scroll_beat": "marit_on_the_cliff",
+      "shot": "medium",
+      "aspect": "2:3",
+      "prompt": "STYLE_SUNDERED_WEBTOON: gritty literary sci-fi manhwa, vertical webtoon panel, dense ink linework and layered screentone, muted cool desaturated palette with selective warm accent, cinematic panel composition, ligne-claire faces with expressive ink shadow, slightly wide taking-it-all-in framing, thin clean panel borders, no halftone dots visible at zoom, no speech bubble artifacts, no watermarks, high detail. BRONZE-AGE LIVING-WORLD PALETTE: bronze-gold sky #C8A96E, sandstone #8B6E45, warm mahogany shadow #3D2810, Regnant cool-pale skin #F4F1EC (full palette reference: deep Aegean sea #2D6A8A). Medium shot: Marit: 174cm lean young woman, full Regnant pale skin worn openly reads as less uncanny than the others, fair warm-toned hair loosely pulled back, pale hazel-grey wide-set eyes with genuine attention that land on things the way a person looks at what they find interesting, easy open movement, small worn notebook in hand, stylus behind ear. She sits on a flat rock near the cliff edge writing in a cipher notebook, her nosebleed already stopped, calm and curious where the others are inward, the only one looking outward at the world. Bleached stone, scrub at edge. 2:3 portrait, no glowing effects.",
+      "negative_prompt": "NEGATIVE_SUNDERED_DEFAULT: photorealistic, 3D render, CGI, western superhero comic, bright saturated anime colours, chibi, super-deformation, visible halftone dots, speech bubble overflow, watermark, signature, blurry low-detail background, multiverse portal imagery, glowing vortex, sci-fi laser, holographic AI face, alien features on the pale figures, modern clothing, anachronistic objects, overexposed blown highlights, flat shading, text artifacts, NSFW",
+      "caption": "My notebook is open before I have confirmed the ringing in my ears will stop. The plateau has no people on it and this is the most remarkable thing about it.",
+      "caption_pov": "marit",
+      "dialogue": [],
+      "bubbles": [],
+      "variants": [
+        {
+          "file": "renders/panel_26_v1.webp",
+          "model": "black-forest-labs/flux-schnell",
+          "created_at": "2026-06-12T11:36:21.499665+00:00"
+        },
+        {
+          "file": "renders/panel_26_v2.webp",
+          "model": "black-forest-labs/flux-schnell",
+          "created_at": "2026-06-12T11:44:16.364394+00:00"
+        },
+        {
+          "file": "renders/panel_26_v3.webp",
+          "model": "black-forest-labs/flux-schnell",
+          "created_at": "2026-06-12T11:52:08.491405+00:00"
+        }
+      ],
+      "selected_variant": 0,
+      "approved": false,
+      "flagged": false,
+      "note": "",
+      "animation": {
+        "camera": "slow_zoom_in",
+        "motion_hint": "ambient drift",
+        "duration_s": 2.5,
+        "transition": "cut"
+      }
+    },
+    {
+      "panel": 27,
+      "scroll_beat": "marit_on_the_cliff",
+      "shot": "insert_corvid",
+      "aspect": "9:16",
+      "prompt": "STYLE_SUNDERED_WEBTOON: gritty literary sci-fi manhwa, vertical webtoon panel, dense ink linework and layered screentone, muted cool desaturated palette with selective warm accent, cinematic panel composition, expressive ink shadow, thin clean panel borders, no halftone dots visible at zoom, no speech bubble artifacts, no watermarks, high detail. BRONZE-AGE LIVING-WORLD PALETTE: bronze-gold sky #C8A96E, sandstone #8B6E45, warm mahogany shadow #3D2810, dark green mastic foliage (full palette reference: deep Aegean sea #2D6A8A, Regnant cool-pale skin #F4F1EC). Tall composition over the north cliff edge: a single black corvid wheeling and dropping below the bleached limestone break, below it the dark glossy green crown of a Pistacia lentiscus mastic shrub clinging to the face, and lower still in warm shadow the hint of water in a cleft. The corvid as the clue. Sun-glare on white rock, deep warm shadow in the cleft. 9:16 vertical, no glowing effects.",
+      "negative_prompt": "NEGATIVE_SUNDERED_DEFAULT: photorealistic, 3D render, CGI, western superhero comic, bright saturated anime colours, chibi, super-deformation, visible halftone dots, speech bubble overflow, watermark, signature, blurry low-detail background, multiverse portal imagery, glowing vortex, sci-fi laser, holographic AI face, modern clothing, anachronistic objects, overexposed blown highlights, flat shading, text artifacts, NSFW",
+      "caption": "The corvid circles twice more and drops below the cliff edge. A few seconds later I hear it, closer: it has found something on the slope.",
+      "caption_pov": "marit",
+      "dialogue": [],
+      "bubbles": [],
+      "variants": [
+        {
+          "file": "renders/panel_27_v1.webp",
+          "model": "black-forest-labs/flux-schnell",
+          "created_at": "2026-06-12T11:36:35.296402+00:00"
+        },
+        {
+          "file": "renders/panel_27_v2.webp",
+          "model": "black-forest-labs/flux-schnell",
+          "created_at": "2026-06-12T11:44:29.766981+00:00"
+        },
+        {
+          "file": "renders/panel_27_v3.webp",
+          "model": "black-forest-labs/flux-schnell",
+          "created_at": "2026-06-12T11:52:21.947920+00:00"
+        }
+      ],
+      "selected_variant": 0,
+      "approved": false,
+      "flagged": false,
+      "note": "",
+      "animation": {
+        "camera": "hold",
+        "motion_hint": "subtle focus pull",
+        "duration_s": 1.5,
+        "transition": "cut"
+      }
+    },
+    {
+      "panel": 28,
+      "scroll_beat": "marit_on_the_cliff",
+      "shot": "close_action",
+      "aspect": "2:3",
+      "prompt": "STYLE_SUNDERED_WEBTOON: gritty literary sci-fi manhwa, vertical webtoon panel, dense ink linework and layered screentone, muted cool desaturated palette with selective warm accent, cinematic panel composition, ligne-claire faces with expressive ink shadow, thin clean panel borders, no halftone dots visible at zoom, no speech bubble artifacts, no watermarks, high detail. BRONZE-AGE LIVING-WORLD PALETTE: bronze-gold sky #C8A96E, sandstone #8B6E45, warm mahogany shadow #3D2810, deep Aegean sea #2D6A8A, Regnant cool-pale skin #F4F1EC. Close action shot: Marit (174cm, fair warm-toned hair loosely tied, pale hazel-grey wide-set eyes with genuine attention, small worn notebook, stylus behind ear) leans carefully over the wind-polished limestone north edge, footing cautious, head tilted listening, her face lighting with discovery as she catches the sound of water below. The anthropologist finding the spring by ear, not by the Oracle. Cliff drop and mastic shrub below. 2:3 portrait, no glowing effects.",
+      "negative_prompt": "NEGATIVE_SUNDERED_DEFAULT: photorealistic, 3D render, CGI, western superhero comic, bright saturated anime colours, chibi, super-deformation, visible halftone dots, speech bubble overflow, watermark, signature, blurry low-detail background, multiverse portal imagery, glowing vortex, sci-fi laser, holographic AI face, alien features on the pale figures, modern clothing, anachronistic objects, overexposed blown highlights, flat shading, text artifacts, NSFW",
+      "caption": "Below the line of the cliff the top of what is probably a mastic shrub, and below that the sound of water. The spring is there.",
+      "caption_pov": "marit",
+      "dialogue": [],
+      "bubbles": [],
+      "variants": [
+        {
+          "file": "renders/panel_28_v1.webp",
+          "model": "black-forest-labs/flux-schnell",
+          "created_at": "2026-06-12T11:36:49.728863+00:00"
+        },
+        {
+          "file": "renders/panel_28_v2.webp",
+          "model": "black-forest-labs/flux-schnell",
+          "created_at": "2026-06-12T11:44:43.009049+00:00"
+        },
+        {
+          "file": "renders/panel_28_v3.webp",
+          "model": "black-forest-labs/flux-schnell",
+          "created_at": "2026-06-12T11:52:35.580254+00:00"
+        }
+      ],
+      "selected_variant": 0,
+      "approved": false,
+      "flagged": false,
+      "note": "",
+      "animation": {
+        "camera": "slow_zoom_in",
+        "motion_hint": "breathing, eye micro-movement",
+        "duration_s": 2.0,
+        "transition": "cut"
+      }
+    },
+    {
+      "panel": 29,
+      "scroll_beat": "marit_on_the_cliff",
+      "shot": "insert_notebook",
+      "aspect": "1:1",
+      "prompt": "STYLE_SUNDERED_WEBTOON: gritty literary sci-fi manhwa, vertical webtoon panel, dense ink linework and layered screentone, muted cool desaturated palette with selective warm accent, cinematic panel composition, expressive ink shadow, thin clean panel borders, no halftone dots visible at zoom, no speech bubble artifacts, no watermarks, high macro detail. BRONZE-AGE LIVING-WORLD PALETTE: bronze-gold ambient #C8A96E, warm parchment #D9CDBF, warm mahogany shadow #3D2810, Regnant cool-pale skin #F4F1EC on the hand (full palette reference: sandstone #8B6E45, deep Aegean sea #2D6A8A). Extreme macro insert: a small worn local-made notebook open on a pale Regnant knee, a slim stylus writing dense unreadable cipher script across the warm parchment page, sketched margin notes of a carob pod and a leaf shape, the page private and analytical. No legible modern text, only invented cipher marks. 1:1 square insert, no glowing effects.",
+      "negative_prompt": "NEGATIVE_SUNDERED_DEFAULT: photorealistic, 3D render, CGI, western superhero comic, bright saturated anime colours, chibi, super-deformation, visible halftone dots, speech bubble overflow, watermark, signature, blurry low-detail background, multiverse portal imagery, glowing vortex, sci-fi laser, holographic AI face, legible english text, modern clothing, anachronistic objects, overexposed blown highlights, flat shading, text artifacts, NSFW",
+      "caption": "Spring confirmed by sound. North face, below limestone break. The Oracle's map has this route. The Oracle did not flag the ledge.",
+      "caption_pov": "marit",
+      "dialogue": [],
+      "bubbles": [],
+      "variants": [
+        {
+          "file": "renders/panel_29_v1.webp",
+          "model": "black-forest-labs/flux-schnell",
+          "created_at": "2026-06-12T11:37:04.670174+00:00"
+        },
+        {
+          "file": "renders/panel_29_v2.webp",
+          "model": "black-forest-labs/flux-schnell",
+          "created_at": "2026-06-12T11:44:56.627630+00:00"
+        },
+        {
+          "file": "renders/panel_29_v3.webp",
+          "model": "black-forest-labs/flux-schnell",
+          "created_at": "2026-06-12T11:52:49.182917+00:00"
+        }
+      ],
+      "selected_variant": 0,
+      "approved": false,
+      "flagged": false,
+      "note": "",
+      "animation": {
+        "camera": "hold",
+        "motion_hint": "subtle focus pull",
+        "duration_s": 1.5,
+        "transition": "cut"
+      }
+    },
+    {
+      "panel": 30,
+      "scroll_beat": "signe_logs_the_oracle_error",
+      "shot": "extreme_close",
+      "aspect": "2:3",
+      "prompt": "STYLE_SUNDERED_WEBTOON: gritty literary sci-fi manhwa, vertical webtoon panel, dense ink linework and layered screentone, muted cool desaturated palette with selective warm accent, cinematic panel composition, ligne-claire faces with expressive ink shadow, thin clean panel borders, no halftone dots visible at zoom, no speech bubble artifacts, no watermarks, high detail. BRONZE-AGE LIVING-WORLD PALETTE: bronze-gold light #C8A96E, sandstone #8B6E45, warm mahogany shadow #3D2810, Regnant cool-pale skin #F4F1EC (full palette reference: deep Aegean sea #2D6A8A). Extreme close on Signe's face (Signe: full Regnant near-luminous pale skin, fair hair in tight functional braid, pale measuring grey eyes that track differently from the others, precise dry bearing, dried nosebleed): her eyes narrow a fraction and her lips part on the smallest involuntary sound, the exact micro-expression of a scientist catching a number that is wrong. The engram garment with its geometric interlace border visible folded at her shoulder. Controlled, sharp, a discrepancy registered. 2:3 portrait, no glowing effects.",
+      "negative_prompt": "NEGATIVE_SUNDERED_DEFAULT: photorealistic, 3D render, CGI, western superhero comic, bright saturated anime colours, chibi, super-deformation, visible halftone dots, speech bubble overflow, watermark, signature, blurry low-detail background, multiverse portal imagery, glowing vortex, sci-fi laser, holographic AI face, alien features on the pale figures, modern clothing, anachronistic objects, overexposed blown highlights, flat shading, text artifacts, NSFW",
+      "caption": "The altitude figure catches. The Oracle said twelve minutes. Nine is closer. Three minutes of overconfidence, stated as a definite, on day one.",
+      "caption_pov": "signe",
+      "dialogue": [],
+      "bubbles": [],
+      "variants": [
+        {
+          "file": "renders/panel_30_v1.webp",
+          "model": "black-forest-labs/flux-schnell",
+          "created_at": "2026-06-12T11:37:17.738915+00:00"
+        },
+        {
+          "file": "renders/panel_30_v2.webp",
+          "model": "black-forest-labs/flux-schnell",
+          "created_at": "2026-06-12T11:45:09.905372+00:00"
+        },
+        {
+          "file": "renders/panel_30_v3.webp",
+          "model": "black-forest-labs/flux-schnell",
+          "created_at": "2026-06-12T11:53:03.102546+00:00"
+        }
+      ],
+      "selected_variant": 0,
+      "approved": false,
+      "flagged": false,
+      "note": "",
+      "animation": {
+        "camera": "slow_zoom_in",
+        "motion_hint": "breathing, eye micro-movement",
+        "duration_s": 2.0,
+        "transition": "cut"
+      }
+    },
+    {
+      "panel": 31,
+      "scroll_beat": "signe_logs_the_oracle_error",
+      "shot": "insert_oracle",
+      "aspect": "1:1",
+      "prompt": "STYLE_SUNDERED_WEBTOON: gritty literary sci-fi manhwa, vertical webtoon panel, dense ink linework and layered screentone, muted cool desaturated palette with selective warm accent, cinematic panel composition, expressive ink shadow, thin clean panel borders, no halftone dots visible at zoom, no speech bubble artifacts, no watermarks, high macro detail. BRONZE-AGE LIVING-WORLD PALETTE: bronze-gold ambient #C8A96E, sun-bleached limestone, warm mahogany shadow #3D2810, a single cool steel-blue status point #7BA9C8, Regnant cool-pale skin #F4F1EC on the hand (full palette reference: sandstone #8B6E45, deep Aegean sea #2D6A8A). Extreme insert: a pale Regnant thumb pressing the surface of the Oracle — a small matte mineral slab device, smooth featureless dark-grey stone-like finish, the single tiny subtle steel-blue status light at one edge, NO holographic face, NO screen with text, NO projected display. She is opening a private error-log she built. Cold, deliberate, distrustful. 1:1 square insert, no glowing effects, no holograms.",
+      "negative_prompt": "NEGATIVE_SUNDERED_DEFAULT: photorealistic, 3D render, CGI, western superhero comic, bright saturated anime colours, chibi, super-deformation, visible halftone dots, speech bubble overflow, watermark, signature, blurry low-detail background, multiverse portal imagery, glowing vortex, sci-fi laser, holographic AI face, screen with text, projected display, alien features, modern clothing, anachronistic objects, overexposed blown highlights, flat shading, text artifacts, NSFW",
+      "caption": "I open the error log. The function exists because I built it before we left, in the same quiet way I built all the things I did not announce.",
+      "caption_pov": "signe",
+      "dialogue": [],
+      "bubbles": [],
+      "variants": [
+        {
+          "file": "renders/panel_31_v1.webp",
+          "model": "black-forest-labs/flux-schnell",
+          "created_at": "2026-06-12T11:37:31.284088+00:00"
+        },
+        {
+          "file": "renders/panel_31_v2.webp",
+          "model": "black-forest-labs/flux-schnell",
+          "created_at": "2026-06-12T11:45:23.450028+00:00"
+        },
+        {
+          "file": "renders/panel_31_v3.webp",
+          "model": "black-forest-labs/flux-schnell",
+          "created_at": "2026-06-12T11:53:16.639009+00:00"
+        }
+      ],
+      "selected_variant": 0,
+      "approved": false,
+      "flagged": false,
+      "note": "",
+      "animation": {
+        "camera": "hold",
+        "motion_hint": "subtle focus pull",
+        "duration_s": 1.5,
+        "transition": "cut"
+      }
+    },
+    {
+      "panel": 32,
+      "scroll_beat": "signe_logs_the_oracle_error",
+      "shot": "close",
+      "aspect": "2:3",
+      "prompt": "STYLE_SUNDERED_WEBTOON: gritty literary sci-fi manhwa, vertical webtoon panel, dense ink linework and layered screentone, muted cool desaturated palette with selective warm accent, cinematic panel composition, ligne-claire faces with expressive ink shadow, thin clean panel borders, no halftone dots visible at zoom, no speech bubble artifacts, no watermarks, high detail. BRONZE-AGE LIVING-WORLD PALETTE: bronze-gold light #C8A96E, sandstone #8B6E45, warm mahogany shadow #3D2810, Regnant cool-pale skin #F4F1EC (full palette reference: deep Aegean sea #2D6A8A). Close shot: Signe (full Regnant near-luminous pale skin, fair hair in tight functional braid, pale measuring grey eyes, precise dry bearing, engram garment with geometric interlace border over her arm) sits on the limestone, thumb pressed to her right temple against the peak of her headache, the matte Oracle slab held loosely in her other hand, her gaze level and resolved. The decision to verify every number from now on rendered as quiet steel. 2:3 portrait, no glowing effects.",
+      "negative_prompt": "NEGATIVE_SUNDERED_DEFAULT: photorealistic, 3D render, CGI, western superhero comic, bright saturated anime colours, chibi, super-deformation, visible halftone dots, speech bubble overflow, watermark, signature, blurry low-detail background, multiverse portal imagery, glowing vortex, sci-fi laser, holographic AI face, alien features on the pale figures, modern clothing, anachronistic objects, overexposed blown highlights, flat shading, text artifacts, NSFW",
+      "caption": "I will query it when I need a specific number, and I will verify every specific number it gives me against first principles, and I will log the delta.",
+      "caption_pov": "signe",
+      "dialogue": [],
+      "bubbles": [],
+      "variants": [
+        {
+          "file": "renders/panel_32_v1.webp",
+          "model": "black-forest-labs/flux-schnell",
+          "created_at": "2026-06-12T11:37:45.747263+00:00"
+        },
+        {
+          "file": "renders/panel_32_v2.webp",
+          "model": "black-forest-labs/flux-schnell",
+          "created_at": "2026-06-12T11:45:37.458047+00:00"
+        },
+        {
+          "file": "renders/panel_32_v3.webp",
+          "model": "black-forest-labs/flux-schnell",
+          "created_at": "2026-06-12T11:53:29.800954+00:00"
+        }
+      ],
+      "selected_variant": 0,
+      "approved": false,
+      "flagged": false,
+      "note": "",
+      "animation": {
+        "camera": "slow_zoom_in",
+        "motion_hint": "breathing, eye micro-movement",
+        "duration_s": 2.0,
+        "transition": "cut"
+      }
+    },
+    {
+      "panel": 33,
+      "scroll_beat": "the_day_closing",
+      "shot": "medium",
+      "aspect": "2:3",
+      "prompt": "STYLE_SUNDERED_WEBTOON: gritty literary sci-fi manhwa, vertical webtoon panel, dense ink linework and layered screentone, muted cool desaturated palette with selective warm accent, cinematic panel composition, ligne-claire faces with expressive ink shadow, thin clean panel borders, no halftone dots visible at zoom, no speech bubble artifacts, no watermarks, high detail. BRONZE-AGE LIVING-WORLD PALETTE: lowering bronze-gold light #C8A96E, sandstone #8B6E45, warm mahogany shadow #3D2810, warm amber firelight #C4A46B accent (full palette reference: deep Aegean sea #2D6A8A, Regnant cool-pale skin #F4F1EC). Medium shot, afternoon light deepening: Ysel: Dimmed companion, mid-20s woman, warm amber-olive skin distinctly warmer than the pale Regnant, dark hair worn braided and practical, face carrying a total unfiltered warmth given to everyone and everything without selection, hands busy carrying the water containers, competent bearing. She crosses the plateau toward Brenn's clean-burning fire with the water containers in both hands, unasked, on her own assessment. The pale Regnant sit and watch. Action-without-comment. 2:3 portrait, no glowing effects. CAST DIFFERENTIATION (each face/silhouette clearly distinct): Signe = tight pale braid, angular precise bearing, geometric-border garment wrap; Aldric = the tallest figure, short ash-blonde hair, rigid stillness, blade at hip; Cael = loose tousled ash-fair hair, relaxed slouch, freckles, small satchel case; Marit = warm honey-toned hair in a low tie with local cloth, soft open posture, worn notebook; Oswin = compact build, cropped dark hair, unreadable neutral face, plain dress; Dimmed workers (Brenn/Ysel/Toran) = warm amber-olive skin, practical work clothes, Brenn broad and weathered, Ysel braided and bright-eyed, Toran lean and quiet.",
+      "negative_prompt": "NEGATIVE_SUNDERED_DEFAULT: photorealistic, 3D render, CGI, western superhero comic, bright saturated anime colours, chibi, super-deformation, visible halftone dots, speech bubble overflow, watermark, signature, blurry low-detail background, multiverse portal imagery, glowing vortex, sci-fi laser, holographic AI face, alien features on the pale figures, modern clothing, anachronistic objects, overexposed blown highlights, flat shading, text artifacts, NSFW",
+      "caption": "Ysel is already moving toward it with the water containers. None of us asked her to.",
+      "caption_pov": "signe",
+      "dialogue": [],
+      "bubbles": [],
+      "variants": [
+        {
+          "file": "renders/panel_33_v1.webp",
+          "model": "black-forest-labs/flux-schnell",
+          "created_at": "2026-06-12T11:37:58.826687+00:00"
+        },
+        {
+          "file": "renders/panel_33_v2.webp",
+          "model": "black-forest-labs/flux-schnell",
+          "created_at": "2026-06-12T11:45:50.459536+00:00"
+        },
+        {
+          "file": "renders/panel_33_v3.webp",
+          "model": "black-forest-labs/flux-schnell",
+          "created_at": "2026-06-12T11:53:43.256496+00:00"
+        }
+      ],
+      "selected_variant": 0,
+      "approved": false,
+      "flagged": false,
+      "note": "",
+      "animation": {
+        "camera": "slow_zoom_in",
+        "motion_hint": "ambient drift",
+        "duration_s": 2.5,
+        "transition": "cut"
+      }
+    },
+    {
+      "panel": 34,
+      "scroll_beat": "the_day_closing",
+      "shot": "wide_thematic",
+      "aspect": "9:16",
+      "prompt": "STYLE_SUNDERED_WEBTOON: gritty literary sci-fi manhwa, vertical webtoon panel, dense ink linework and layered screentone, muted cool desaturated palette with selective warm accent, cinematic panel composition, expressive ink shadow, thin clean panel borders, no halftone dots visible at zoom, no speech bubble artifacts, no watermarks, high detail in background, soft focus on secondary figures. BRONZE-AGE LIVING-WORLD PALETTE: deepening bronze-gold sky #C8A96E, sun-bleached limestone, sandstone #8B6E45, warm mahogany shadow #3D2810, deep Aegean sea #2D6A8A far below, warm amber firelight #C4A46B (full palette reference: Regnant cool-pale skin #F4F1EC). Wide thematic shot of the whole group on the vast plateau as the day lowers: the single small orange fire the only made-thing in an enormous empty unwritten world, the warm Dimmed workers active around it, the cool pale Regnant scattered and small with their headaches and their notebooks, the sea far below. Knowledge everywhere, capability almost nowhere. Heat haze easing, a corvid distant. 9:16 vertical, no glowing effects.",
+      "negative_prompt": "NEGATIVE_SUNDERED_DEFAULT: photorealistic, 3D render, CGI, western superhero comic, bright saturated anime colours, chibi, super-deformation, visible halftone dots, speech bubble overflow, watermark, signature, blurry low-detail background, multiverse portal imagery, glowing vortex, sci-fi laser, holographic AI face, alien features on the pale figures, modern clothing, anachronistic objects, overexposed blown highlights, flat shading, text artifacts, NSFW",
+      "caption": "The plateau is empty, in the deep way that empty means unwritten, and we are writing ourselves onto it now, very small, with our headaches and our notebooks and our one fire.",
+      "caption_pov": "marit",
+      "dialogue": [],
+      "bubbles": [],
+      "variants": [
+        {
+          "file": "renders/panel_34_v1.webp",
+          "model": "black-forest-labs/flux-schnell",
+          "created_at": "2026-06-12T11:38:12.212228+00:00"
+        },
+        {
+          "file": "renders/panel_34_v2.webp",
+          "model": "black-forest-labs/flux-schnell",
+          "created_at": "2026-06-12T11:46:03.454215+00:00"
+        },
+        {
+          "file": "renders/panel_34_v3.webp",
+          "model": "black-forest-labs/flux-schnell",
+          "created_at": "2026-06-12T11:53:56.372391+00:00"
+        }
+      ],
+      "selected_variant": 0,
+      "approved": false,
+      "flagged": false,
+      "note": "",
+      "animation": {
+        "camera": "slow_zoom_in",
+        "motion_hint": "ambient drift",
+        "duration_s": 2.5,
+        "transition": "cut"
+      }
+    },
+    {
+      "panel": 35,
+      "scroll_beat": "the_day_closing",
+      "shot": "closing_wide",
+      "aspect": "9:16",
+      "prompt": "STYLE_SUNDERED_WEBTOON: gritty literary sci-fi manhwa, vertical webtoon panel, dense ink linework and layered screentone, muted cool desaturated palette with selective warm accent, cinematic panel composition, ligne-claire faces with expressive ink shadow, thin clean panel borders, no halftone dots visible at zoom, no speech bubble artifacts, no watermarks, high detail. BRONZE-AGE LIVING-WORLD PALETTE: bronze-gold sky #C8A96E going amber toward late afternoon, sun-bleached limestone, sandstone #8B6E45, warm mahogany shadow #3D2810, Regnant cool-pale skin #F4F1EC (full palette reference: deep Aegean sea #2D6A8A). Closing beat: low looking up at the vast unmanaged bronze-gold sky over the plateau, completely empty — no contrails, no orbital track, nothing above at all — with the small group tiny at the bottom edge of frame around their one fire. The new reality landing: an unwritten world and no help coming. Quiet, vast, final. 9:16 vertical, no glowing effects.",
+      "negative_prompt": "NEGATIVE_SUNDERED_DEFAULT: photorealistic, 3D render, CGI, western superhero comic, bright saturated anime colours, chibi, super-deformation, visible halftone dots, speech bubble overflow, watermark, signature, blurry low-detail background, multiverse portal imagery, glowing vortex, sci-fi laser, holographic AI face, alien features on the pale figures, modern clothing, anachronistic objects, overexposed blown highlights, flat shading, text artifacts, NSFW",
+      "caption": "The sky overhead is an unmanaged blue. No contrails. No orbital track. Nothing above us at all. So. Here we are, then.",
+      "caption_pov": "cael",
+      "dialogue": [],
+      "bubbles": [],
+      "variants": [
+        {
+          "file": "renders/panel_35_v1.webp",
+          "model": "black-forest-labs/flux-schnell",
+          "created_at": "2026-06-12T11:38:25.435634+00:00"
+        },
+        {
+          "file": "renders/panel_35_v2.webp",
+          "model": "black-forest-labs/flux-schnell",
+          "created_at": "2026-06-12T11:46:16.977084+00:00"
+        },
+        {
+          "file": "renders/panel_35_v3.webp",
+          "model": "black-forest-labs/flux-schnell",
+          "created_at": "2026-06-12T11:54:09.352963+00:00"
+        }
+      ],
+      "selected_variant": 0,
+      "approved": false,
+      "flagged": false,
+      "note": "",
+      "animation": {
+        "camera": "slow_zoom_in",
+        "motion_hint": "ambient drift",
+        "duration_s": 2.5,
+        "transition": "cut"
+      }
+    }
+  ]
+}

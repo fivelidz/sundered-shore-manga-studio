@@ -1,0 +1,111 @@
+{
+  "_demo": "PROOF-OF-FIX storyboard for A1E01 panels 1-8. Demonstrates the SCRIPT step: real scripted dialogue per ADAPTATION_DOCTRINE. Not the live episode.json. Feed to build_episode.py to populate panel.dialogue[]. Caption budget: 2 across 8 panels (<= 1 per 3). Two-hander: Aldric vs Cael (status contest). Set-piece (Brenn's fire) plays as ACTION. Awe grounded in real objects; no mysticism; twist-gated.",
+  "panels": [
+    {
+      "panel": 1,
+      "scroll_beat": "cover_splash",
+      "shot": "title_splash",
+      "aspect": "9:16",
+      "dialogue": [
+        { "type": "caption", "speaker": "", "text": "ARC I — THE CROSSING · Episode 1", "anchor": "top-center" }
+      ],
+      "bubbles": [
+        { "type": "caption", "anchor": "top-center" }
+      ]
+    },
+    {
+      "panel": 2,
+      "scroll_beat": "arrival_on_the_plateau",
+      "shot": "establishing_wide",
+      "aspect": "9:16",
+      "dialogue": [
+        { "type": "sfx", "speaker": "", "text": "— KH-RRK —", "anchor": "center" },
+        { "type": "speech", "speaker": "Cael", "text": "Twelve seconds. That's how long it takes to find out if you lived.", "anchor": "bottom-left" }
+      ],
+      "bubbles": [
+        { "type": "sfx", "anchor": "center" },
+        { "type": "speech", "anchor": "bottom-left" }
+      ]
+    },
+    {
+      "panel": 3,
+      "scroll_beat": "arrival_on_the_plateau",
+      "shot": "insert_detail",
+      "aspect": "1:1",
+      "dialogue": [
+        { "type": "speech", "speaker": "Cael", "text": "Thyme. Salt. And something I'm choosing not to identify.", "anchor": "bottom-right" }
+      ],
+      "bubbles": [
+        { "type": "speech", "anchor": "bottom-right" }
+      ]
+    },
+    {
+      "panel": 4,
+      "scroll_beat": "the_toll_hits_the_body",
+      "shot": "close",
+      "aspect": "2:3",
+      "dialogue": [
+        { "type": "caption", "speaker": "Signe", "text": "Heart rate ninety, standing still. Headache, vascular, right eye. I allow fifteen percent for measurement error and proceed.", "anchor": "top-left" }
+      ],
+      "bubbles": [
+        { "type": "caption", "anchor": "top-left" }
+      ]
+    },
+    {
+      "panel": 5,
+      "scroll_beat": "the_toll_hits_the_body",
+      "shot": "extreme_close_insert",
+      "aspect": "1:1",
+      "dialogue": [
+        { "type": "sfx", "speaker": "", "text": "drip", "anchor": "center" }
+      ],
+      "bubbles": [
+        { "type": "sfx", "anchor": "center" }
+      ]
+    },
+    {
+      "panel": 6,
+      "scroll_beat": "the_toll_hits_the_body",
+      "shot": "medium",
+      "aspect": "2:3",
+      "dialogue": [
+        { "type": "speech", "speaker": "Cael", "text": "I can't tell whether I'm going to vomit or fall asleep.", "anchor": "top-left" },
+        { "type": "speech", "speaker": "Marit", "text": "Both. Eventually.", "anchor": "bottom-right" }
+      ],
+      "bubbles": [
+        { "type": "speech", "anchor": "top-left" },
+        { "type": "speech", "anchor": "bottom-right" }
+      ]
+    },
+    {
+      "panel": 7,
+      "scroll_beat": "the_competence_inversion",
+      "shot": "two_shot",
+      "aspect": "2:3",
+      "dialogue": [
+        { "type": "speech", "speaker": "Aldric", "text": "Shade first. Then water. Fire before dark. Move in that order.", "anchor": "top-left" },
+        { "type": "speech", "speaker": "Cael", "text": "You can rank the tasks. You can't do one of them.", "anchor": "bottom-right" }
+      ],
+      "bubbles": [
+        { "type": "speech", "anchor": "top-left" },
+        { "type": "speech", "anchor": "bottom-right" }
+      ]
+    },
+    {
+      "panel": 8,
+      "scroll_beat": "the_competence_inversion",
+      "shot": "action_insert",
+      "aspect": "1:1",
+      "dialogue": [
+        { "type": "sfx", "speaker": "", "text": "tssk — tssk —", "anchor": "top-right" },
+        { "type": "speech", "speaker": "Brenn", "text": "Not that grass. The brown. Two shades lighter.", "anchor": "bottom-left" },
+        { "type": "sfx", "speaker": "", "text": "fwoomf", "anchor": "bottom-right" }
+      ],
+      "bubbles": [
+        { "type": "sfx", "anchor": "top-right" },
+        { "type": "speech", "anchor": "bottom-left" },
+        { "type": "sfx", "anchor": "bottom-right" }
+      ]
+    }
+  ]
+}

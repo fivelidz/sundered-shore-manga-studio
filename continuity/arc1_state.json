@@ -1,0 +1,35 @@
+{
+  "schema": "manga_studio/arc_continuity@1",
+  "_doc": "Per-episode continuity ledger for Arc I. Before scripting episode N, read the cumulative state through N-1 so dialogue never contradicts what is already known/owned/done. After scripting N, append its deltas. This is the cross-episode memory the system was missing.",
+  "arc": "Arc I — The Crossing",
+  "twist_gate": "NO multiverse / divergent-timeline language in Arc I. The crossing reads as future-humans -> empty world. Reveal lands mid-arc, not here.",
+  "world_facts_known_to_leads": [
+    "They have crossed to an empty 'sterile' world (no other humans here).",
+    "The crossing exacts a toll: ringing ears, vascular headache, nosebleed, photosensitivity.",
+    "The Oracle (handheld AI) gives survival guidance but its altitude/atmosphere calibration is wrong here — Signe logs errors.",
+    "There is a mapped spring at the base of the north cliff."
+  ],
+  "relationships": {
+    "Aldric-Cael": "status contest: Aldric assumes command; Cael needles the gap between ranking tasks and doing them.",
+    "leads-Dimmed": "leads depend on Dimmed competence (Brenn fire, Ysel water/food) without acknowledging it. Dimmed restraint holds: no one narrates the injustice."
+  },
+  "episodes": [
+    {
+      "id": "a1e01_ch01",
+      "title": "The Crossing",
+      "beats_locked": [
+        "Arrival on the plateau in punishing sun; crossing-sickness.",
+        "Competence inversion: Brenn lights fire in ~90s from grass the leads walked past; Aldric fails with the firesteel.",
+        "Signe logs Oracle error 001 (boiling-time miscalc at 60m).",
+        "Ysel moves to the fire with water containers, unasked."
+      ],
+      "knowledge_inserts": ["altitude vs boiling point", "dry vs dew-damp grass for tinder", "crossing-toll physiology"],
+      "state_after": {
+        "fire": "established (Brenn)",
+        "water": "spring located by Aldric, not yet reached; ~2L/person on hand",
+        "shelter": "none yet; flagged as tonight's priority",
+        "oracle_trust": "Signe has begun an error log; trust conditional"
+      }
+    }
+  ]
+}

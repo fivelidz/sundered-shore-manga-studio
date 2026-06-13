@@ -1,0 +1,23 @@
+# backups created before edits (kept locally, not in history)
+*.bak
+*.json.bak
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# os / editor
+.DS_Store
+*.swp
+.idea/
+.vscode/
+
+# secrets — never commit tokens
+*.env
+replicate.env
+.secrets
+
+# large/derived working dirs (regenerable)
+/tmp/

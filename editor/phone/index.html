@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, maximum-scale=1">
+<meta name="theme-color" content="#10121a">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Panels">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icon.svg">
+<link rel="icon" href="icon.svg">
+<title>Panel Reviewer</title>
+<link rel="stylesheet" href="phone.css">
+</head>
+<body>
+<header id="bar">
+  <select id="ep"></select>
+  <div id="prog">…</div>
+  <button id="install" hidden>Install</button>
+</header>
+
+<!-- filter pills -->
+<nav id="filters">
+  <button data-f="unreviewed" class="active">Unreviewed</button>
+  <button data-f="all">All</button>
+  <button data-f="flagged">Flagged</button>
+  <button data-f="approved">Approved</button>
+</nav>
+
+<main id="deck"><div class="empty">Loading…</div></main>
+
+<!-- variant chooser (full-screen, swipeable) -->
+<div id="ov" class="hidden">
+  <div id="ov-title"></div>
+  <div id="ov-stage"></div>
+  <div id="ov-dots"></div>
+  <div id="ov-actions">
+    <button id="ov-pick">Use this variant</button>
+    <button id="ov-x">Close</button>
+  </div>
+</div>
+
+<div id="toast"></div>
+<script src="phone.js"></script>
+</body>
+</html>

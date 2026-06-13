@@ -1,0 +1,14 @@
+{
+  "name": "Sundered Shore — Panel Reviewer",
+  "short_name": "Panels",
+  "description": "Phone reviewer for The Sundered Shore manga: pick the best of 3, approve or reject with a reason.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#14161c",
+  "theme_color": "#10121a",
+  "icons": [
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}

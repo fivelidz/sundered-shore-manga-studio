@@ -1,0 +1,64 @@
+{
+  "schema": "manga_studio/continuity@1",
+  "_doc": "SINGLE SOURCE OF TRUTH for character appearance + the cast-differentiation block injected into multi-character prompts. build_episode.py reads this instead of hard-coding the block, so a face/silhouette is fixed in ONE place. `appearance_lock` is the verbatim phrasing that MUST appear so the look does not drift across episodes; `ref_images` are optional reference renders for an img2img / IP-Adapter consistency pass.",
+  "style_token": "STYLE_SUNDERED_WEBTOON",
+  "palette": "bronze-age living world: sky #C8A96E, earth #8B6E45, shadow #3D2810, sea #2D6A8A, regnant skin #F4F1EC",
+  "characters": {
+    "Signe": {
+      "role": "POV lead — scientist/medic",
+      "appearance_lock": "tight pale-blonde braid, angular precise bearing, geometric-border garment wrap, cool-pale Regnant skin",
+      "silhouette_cue": "tight braid + angular stance",
+      "pov_color": "#7BA9C8",
+      "ref_images": []
+    },
+    "Aldric": {
+      "role": "POV lead — strategist/command",
+      "appearance_lock": "the tallest figure, short ash-blonde hair, rigid stillness, blade at hip, cool-pale Regnant skin",
+      "silhouette_cue": "tallest + blade at hip",
+      "pov_color": "#8a93a6",
+      "ref_images": []
+    },
+    "Cael": {
+      "role": "POV lead — pharmacist/wry",
+      "appearance_lock": "loose tousled ash-fair hair, relaxed slouch, light freckles, small satchel case, cool-pale Regnant skin, large dark-adapted eyes",
+      "silhouette_cue": "tousled hair + satchel case + slouch",
+      "pov_color": "#c4a46b",
+      "ref_images": []
+    },
+    "Marit": {
+      "role": "POV lead — ethnographer/cipher",
+      "appearance_lock": "warm honey-toned hair in a low tie with local cloth, soft open posture, worn cipher notebook, cool-pale Regnant skin",
+      "silhouette_cue": "honey hair + notebook",
+      "pov_color": "#d9cdbf",
+      "ref_images": []
+    },
+    "Oswin": {
+      "role": "non-POV — the question mark",
+      "appearance_lock": "compact build, cropped dark hair, unreadable neutral face, plain dress, cool-pale Regnant skin",
+      "silhouette_cue": "compact + cropped dark hair + neutral face",
+      "pov_color": "#9aa0ab",
+      "ref_images": []
+    },
+    "Brenn": {
+      "role": "Dimmed worker — fire/field competence",
+      "appearance_lock": "warm amber-olive skin, broad and weathered build, practical work clothes",
+      "silhouette_cue": "broad + weathered",
+      "pov_color": "#a8895f",
+      "ref_images": []
+    },
+    "Ysel": {
+      "role": "Dimmed worker — food/water competence",
+      "appearance_lock": "warm amber-olive skin, braided hair, bright-eyed, practical work clothes",
+      "silhouette_cue": "braided + bright-eyed",
+      "pov_color": "#a8895f",
+      "ref_images": []
+    },
+    "Toran": {
+      "role": "Dimmed worker — quiet labour",
+      "appearance_lock": "warm amber-olive skin, lean and quiet, practical work clothes",
+      "silhouette_cue": "lean + quiet",
+      "pov_color": "#a8895f",
+      "ref_images": []
+    }
+  }
+}
